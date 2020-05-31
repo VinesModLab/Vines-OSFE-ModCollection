@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="false" name="BreakSabre" frameDuration="140">
+  <Frame image="attacks/BreakSabre0.png"></Frame>
+  <Frame image="attacks/BreakSabre1.png"></Frame>
+  <Frame image="attacks/BreakSabre2.png"></Frame>
+  <Frame image="attacks/BreakSabre3.png"></Frame>
+  <Frame image="attacks/BreakSabre4.png"></Frame>
+  <Frame image="attacks/BreakSabre5.png"></Frame>
+  <Frame image="attacks/BreakSabre6.png"></Frame>
+  <Frame image="attacks/BreakSabre7.png"></Frame>
+</Animation>

@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spells>
+    <Spell itemID="WideWave3">
+      <Stats animCast="" animShot="WideWave" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="3"></Stats>
+      <HitAllies></HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf></HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>WideWave3</Name>
+      <Tags>Player, Demo, Live</Tags>
+      <Action>Multishot</Action>
+      <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Frost%/hg%. </Description>
+      <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+      <Rarity>0</Rarity>
+      <Brand>Anima</Brand>
+      <Mana>1</Mana>
+      <Damage>20</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>End</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>800</ShotVelocity>
+      <ShotDuration>2</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0.15</CastDelay>
+      <CastDuration>0.15</CastDuration>
+      <DestroyOnHit>false</DestroyOnHit>
+      <OnHit amount="1" duration="0">Move</OnHit>
+      <OnHit>Frost</OnHit>
+    </Spell>
+  <Spell itemID="WideWaveX">
+    <Stats animCast="" animShot="WideWave" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>WideWaveX</Name>
+    <Tags>Player, Demo, Live</Tags>
+    <Action>Multishot</Action>
+    <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Frost%/hg%. </Description>
+    <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+    <Rarity>2</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>2</Mana>
+    <Damage>40+SpellPower*20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration>0.15</CastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="1" duration="0">Move</OnHit>
+    <OnHit>Frost</OnHit>
+  </Spell>
+  <Spell itemID="HeatShot">
+    <Stats animCast="FireCharge" animShot="HeatShot" shotSound="flare" setToGunPoint="Both"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>HeatShot</Name>
+    <Tags>Player, Demo, Live, PvP</Tags>
+    <Action>Multishot</Action>
+    <Description>Powerful fireball explodes on hit and damages nearby enemies. </Description>
+    <Meta>Powerful fireball explodes on hit and damages nearby enemies.</Meta>
+    <Rarity>0</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>1</Mana>
+    <Damage>40</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>3</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.2</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit>true</DestroyOnHit>
+    <OnCast></OnCast>
+    <OnHit value="HitExplosionPyroblast">CastSpell</OnHit>
+  </Spell>
+  <Spell itemID="HeatShotX">
+    <Stats animCast="FireCharge" animShot="HeatShot" shotSound="flare" setToGunPoint="Both"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>HeatShotX</Name>
+    <Tags>Player, Demo, Live, PvP</Tags>
+    <Action>Multishot</Action>
+    <Description>Powerful fireball explodes on hit and damages nearby enemies. </Description>
+    <Meta>Powerful fireball explodes on hit and damages nearby enemies.</Meta>
+    <Rarity>2</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>2</Mana>
+    <Damage>80+SpellPower*10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>3</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.2</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit>true</DestroyOnHit>
+    <OnCast></OnCast>
+    <OnHit value="HitExplosionPyroblast">CastSpell</OnHit>
+  </Spell>
+  <Spell itemID="ZeroSword">
+    <Stats animBlast="AxeHitZ" animShot="AxeHitZ" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" hitboxWidth="2" hitboxHeight="3" spawnOffsetX="1" hitboxOffsetX="0.5"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>Zero's Power</Name>
+    <Tags>Player</Tags>
+    <Action>Multishot</Action>
+    <Description>Hit 2x3 tiles in front, with a bonus Z hit. </Description>
+    <Meta>Hit 2x3 tiles in front, with a bonus Z hit.</Meta>
+    <Rarity>4</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>5</Mana>
+    <Damage>300</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0</BlastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnCast>Consume</OnCast>
+    <OnCast value="LastLetterX" target="Self">CastSpell</OnCast>
+  </Spell>
+  <Spell itemID="IcySword">
+    <Stats animBlast="SwordHitIcy" animShot="" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>IcySword</Name>
+    <Tags>Player</Tags>
+    <Action>StepSlash</Action>
+    <Description>Teleport forward and Slash 1x3 tiles in front.  Apply %hg%Frost%/hg%. </Description>
+    <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+    <Rarity>0</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>2</Mana>
+    <Damage>40+SpellPower*10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location Position="3">Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0.25</BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <OnCast>Anchor</OnCast>
+    <OnCast></OnCast>
+    <OnHit>Frost</OnHit>
+  </Spell>
+  <Spell itemID="ColdHero">
+    <Stats animCast="SwordHitIcy" animShot="ColdWave" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>ColdHero</Name>
+    <Tags>Player, Demo, Live</Tags>
+    <Action>Multishot</Action>
+    <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Frost%/hg%. </Description>
+    <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+    <Rarity>3</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>2</Mana>
+    <Damage>100+SpellPower*20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration>0.15</CastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="1" duration="0">Move</OnHit>
+    <OnHit>Frost</OnHit>
+  </Spell>
+  <Spell itemID="FireSword">
+    <Stats animBlast="SwordHitFire" animShot="" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>FireSword</Name>
+    <Tags>Player</Tags>
+    <Action>StepSlash</Action>
+    <Description>Teleport forward and Slash 1x3 tiles in front.  Apply %hg%Flame%/hg%. </Description>
+    <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+    <Rarity>0</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>2</Mana>
+    <Damage>40+SpellPower*10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location Position="3">Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0.25</BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <OnCast>Anchor</OnCast>
+    <OnCast></OnCast>
+    <OnHit>Flame</OnHit>
+  </Spell>
+  <Spell itemID="HeatHero">
+    <Stats animCast="SwordHitFire" animShot="HeatWave" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>HeatHero</Name>
+    <Tags>Player, Demo, Live</Tags>
+    <Action>Multishot</Action>
+    <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Flame%/hg%. </Description>
+    <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+    <Rarity>3</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>3</Mana>
+    <Damage>100+SpellPower*20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration>0.15</CastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="1" duration="0">Move</OnHit>
+    <OnHit>Flame</OnHit>
+  </Spell>
+  <Spell itemID="ElecSword">
+    <Stats animBlast="SwordHitElec" animShot="" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>ElecSword</Name>
+    <Tags>Player</Tags>
+    <Action>StepSlash</Action>
+    <Description>Teleport forward and Slash 1x3 tiles in front. %hg%Root%/hg% for 2 sec. </Description>
+    <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+    <Rarity>0</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>2</Mana>
+    <Damage>50+SpellPower*10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location Position="3">Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0.25</BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <OnCast>Anchor</OnCast>
+    <OnCast></OnCast>
+    <OnHit duration="2">Root</OnHit>
+  </Spell>
+    <Spell itemID="ElecHero">
+    <Stats animCast="SwordHitElec" animShot="ElecWave" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>ElecHero</Name>
+    <Tags>Player, Demo, Live</Tags>
+    <Action>Multishot</Action>
+    <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Root%/hg%. </Description>
+    <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+    <Rarity>3</Rarity>
+    <Brand>Slashfik</Brand>
+    <Mana>3</Mana>
+    <Damage>100+SpellPower*20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>End</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>800</ShotVelocity>
+    <ShotDuration>2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.15</CastDelay>
+    <CastDuration>0.15</CastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnHit amount="1" duration="0">Move</OnHit>
+    <OnHit duration="2">Root</OnHit>
+  </Spell>
+   <Spell itemID="EdogiriBlade">
+     <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+       setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>Bushido</Name>
+     <Tags>Player</Tags>
+     <Action>StepSlash</Action>
+     <Description>Teleport forward and Slash 1x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
+     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+     <Rarity>0</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>1</Mana>
+     <Damage>150</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location Position="3">Front</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0.25</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <BlastDuration>0.5</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast>Anchor</OnCast>
+     <OnCast amount="1">Trinity</OnCast>
+     <TrinityCast>DoubleCast</TrinityCast>
+     <OnCast></OnCast>
+   </Spell>
+   <Spell itemID="EdogiriBladeX">
+     <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+       setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>BushidoX</Name>
+     <Tags>Player</Tags>
+     <Action>StepSlash</Action>
+     <Description>Teleport forward and Slash 1x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
+     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+     <Rarity>1</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>2</Mana>
+     <Damage>200+SpellPower*20</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location Position="3">Front</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0.25</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <BlastDuration>0.5</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast>Anchor</OnCast>
+     <OnCast amount="1">Trinity</OnCast>
+     <TrinityCast>DoubleCast</TrinityCast>
+     <OnCast></OnCast>
+   </Spell>
+   <Spell itemID="SonicSword1">
+     <Stats animCast="SwordHit" animShot="SonicSword" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>SonicSword</Name>
+     <Tags>Player, Demo, Live</Tags>
+     <Action>Multishot</Action>
+     <Description>Send out a wave a row wide. Can hit multiple times. </Description>
+     <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+     <Rarity>1</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>2</Mana>
+     <Damage>80</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location>End</Location>
+     <TimeBetweenShots>0</TimeBetweenShots>
+     <ShotVelocity>800</ShotVelocity>
+     <ShotDuration>2</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0.15</CastDelay>
+     <CastDuration>0.15</CastDuration>
+     <DestroyOnHit>false</DestroyOnHit>
+     <OnHit amount="1" duration="0">Move</OnHit>
+   </Spell>
+   <Spell itemID="SonicSwordX">
+     <Stats animCast="SwordHit" animShot="SonicSword" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>SonicSwordX</Name>
+     <Tags>Player, Demo, Live</Tags>
+     <Action>Multishot</Action>
+     <Description>Send out a wave a row wide. Can hit multiple times. </Description>
+     <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
+     <Rarity>2</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>3</Mana>
+     <Damage>130+SpellPower*20</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location>End</Location>
+     <TimeBetweenShots>0</TimeBetweenShots>
+     <ShotVelocity>800</ShotVelocity>
+     <ShotDuration>2</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0.15</CastDelay>
+     <CastDuration>0.15</CastDuration>
+     <DestroyOnHit>false</DestroyOnHit>
+     <OnHit amount="1" duration="0">Move</OnHit>
+   </Spell>
+   <Spell itemID="BlastSwing">
+     <Stats animBlast="MagicClawC" animShot="" introSound="disappear_magical_fast"
+       setToGunPoint="None"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>BlastSwing</Name>
+     <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
+     <Action>MagicClaw</Action>
+     <Description>Two slashes in an X 4 tiles in front, apply %hg%Fragile%/hg%. </Description>
+     <Meta>Two slashes in an X 4 tiles in front, apply Fragile</Meta>
+     <Rarity>0</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>2</Mana>
+     <Damage>65</Damage>
+     <Shots>2</Shots>
+     <Tiles>1</Tiles>
+     <Location>HalfField</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>250</ShotVelocity>
+     <ShotDuration>0.34</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <CastDuration></CastDuration>
+     <BlastDuration>0.6</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast></OnCast>
+     <OnHit amount="1" target="Hit">Fragile</OnHit>
+     <OnHit duration="1.5">Root</OnHit>
+   </Spell>
+   <Spell itemID="BlastSwingX">
+     <Stats animBlast="MagicClawC" animShot="" introSound="disappear_magical_fast"
+       setToGunPoint="None"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>BlastSwingX</Name>
+     <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
+     <Action>MagicClaw</Action>
+     <Description>Four slashes in an X 4 tiles in front, apply 2 %hg%Fragile%/hg%. </Description>
+     <Meta>Four slashes in an X 4 tiles in front, apply 2 Fragile</Meta>
+     <Rarity>2</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>3</Mana>
+     <Damage>100+SpellPower*10</Damage>
+     <Shots>2</Shots>
+     <Tiles>1</Tiles>
+     <Location>HalfField</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>250</ShotVelocity>
+     <ShotDuration>0.34</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <CastDuration></CastDuration>
+     <BlastDuration>0.6</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast></OnCast>
+     <OnHit amount="2" target="Hit">Fragile</OnHit>
+     <OnHit value="BlastSwing" target="Self">CastSpell</OnHit>
+     <OnHit duration="1.5">Root</OnHit>
+   </Spell>
+     <Spell itemID="TribeKing">
+     <Stats animCast="" animShot="" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>TribeKing</Name>
+     <Tags>Player, Demo, Live</Tags>
+     <Action>Multishot</Action>
+     <Description>Send out 3 wave a row wide. Can hit multiple times. Gain 10 %hg%SpellPower%/hg%. </Description>
+     <Meta></Meta>
+     <Rarity>4</Rarity>
+     <Brand>Anima</Brand>
+     <Mana>5</Mana>
+     <Damage>0</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location>End</Location>
+     <TimeBetweenShots>0</TimeBetweenShots>
+     <ShotVelocity>800</ShotVelocity>
+     <ShotDuration>2</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0.15</CastDelay>
+     <CastDuration>0.15</CastDuration>
+     <DestroyOnHit>false</DestroyOnHit>
+     <OnCast amount="10" duration="Infinite" target="Self">SpellPowerBattle</OnCast>
+     <OnCast value="HeatHero" target="Self">CastSpell</OnCast>
+     <OnCast value="ColdHero" target="Self">CastSpell</OnCast>
+     <OnCast value="ElecHero" target="Self">CastSpell</OnCast>
+     <OnCast>Consume</OnCast>
+   </Spell>
+     <Spell itemID="FireBoomerang">
+       <Stats animCast="FrostboltCharge" animShot="Boomer" castSound="wiffle_buzz_fade" shotSound=""
+         setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>FireBoomerang</Name>
+       <Tags>Player, Demo, Live, PvP</Tags>
+       <Action>Multishot</Action>
+       <Description>Hits going forward and back, %hg%Flame%/hg% on hit. </Description>
+       <Meta>Hits going forward and back, flame on hit.</Meta>
+       <Rarity>0</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>2</Mana>
+       <Damage>50</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.05</TimeBetweenShots>
+       <ShotVelocity>0.1</ShotVelocity>
+       <ShotDuration>1.4</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.05</CastDelay>
+       <CastDuration>0.05</CastDuration>
+       <WarningDuration></WarningDuration>
+       <DestroyOnHit></DestroyOnHit>
+       <Params lerpDirection="Forward" lerpPattern="BounceGrid" lerpDelay="0"></Params>
+       <OnCast></OnCast>
+       <OnHit>Flame</OnHit>
+     </Spell>
+     <Spell itemID="IcyBoomerang">
+       <Stats animCast="FrostboltCharge" animShot="Boomer" castSound="wiffle_buzz_fade" shotSound=""
+         setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>IcyBoomerang</Name>
+       <Tags>Player, Demo, Live, PvP</Tags>
+       <Action>Multishot</Action>
+       <Description>Hits going forward and back, %hg%Frost%/hg% on hit. </Description>
+       <Meta>Hits going forward and back, frost on hit.</Meta>
+       <Rarity>0</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>2</Mana>
+       <Damage>50</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.05</TimeBetweenShots>
+       <ShotVelocity>0.1</ShotVelocity>
+       <ShotDuration>1.4</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.05</CastDelay>
+       <CastDuration>0.05</CastDuration>
+       <WarningDuration></WarningDuration>
+       <DestroyOnHit></DestroyOnHit>
+       <Params lerpDirection="Forward" lerpPattern="BounceGrid" lerpDelay="0"></Params>
+       <OnCast></OnCast>
+       <OnHit>Frost</OnHit>
+     </Spell>
+     <Spell itemID="PiranhaKiss3">
+       <Stats animCast="" animShot="PiranhaKiss" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>PiranhaKiss3</Name>
+       <Tags>Player, Demo, Live</Tags>
+       <Action>Multishot</Action>
+       <Description>Piranha Hits enemy with arrows. </Description>
+       <Meta></Meta>
+       <Rarity>0</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>1</Mana>
+       <Damage>25</Damage>
+       <Shots>3</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.15</TimeBetweenShots>
+       <ShotVelocity>600</ShotVelocity>
+       <ShotDuration>2</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.15</CastDelay>
+       <CastDuration>0.15</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnHit>Frost</OnHit>
+       <OnCast>Anchor</OnCast>
+     </Spell>
+     <Spell itemID="PiranhaKissX">
+       <Stats animCast="" animShot="PiranhaKiss" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>PiranhaKissX</Name>
+       <Tags>Player, Demo, Live</Tags>
+       <Action>Multishot</Action>
+       <Description>Piranha Hits enemy with arrows. </Description>
+       <Meta></Meta>
+       <Rarity>2</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>2</Mana>
+       <Damage>50+SpellPower*5</Damage>
+       <Shots>3</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.15</TimeBetweenShots>
+       <ShotVelocity>600</ShotVelocity>
+       <ShotDuration>2</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.15</CastDelay>
+       <CastDuration>0.15</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnHit>Frost</OnHit>
+       <OnCast>Anchor</OnCast>
+     </Spell>
+     <Spell itemID="DanceFire">
+       <Stats animCast="FireCharge" animShot="Firebolt" shotSound="flare" setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>DanceFire</Name>
+       <Tags>Player, Demo, Live</Tags>
+       <Action>Multishot</Action>
+       <Description>Rings of fire trigger on hit. </Description>
+       <Meta></Meta>
+       <Rarity>0</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>1</Mana>
+       <Damage>50</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.25</TimeBetweenShots>
+       <ShotVelocity>600</ShotVelocity>
+       <ShotDuration>2</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.15</CastDelay>
+       <CastDuration>0.15</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnHit value="RingOfFire" target="Self">CastSpell</OnHit>
+     </Spell>
+     <Spell itemID="DanceFireX">
+       <Stats animCast="FireCharge" animShot="Firebolt" shotSound="flare" setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>DanceFireX</Name>
+       <Tags>Player, Demo, Live</Tags>
+       <Action>Multishot</Action>
+       <Description>Rings of fire trigger on hit. </Description>
+       <Meta></Meta>
+       <Rarity>1</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>2</Mana>
+       <Damage>50+SpellPower*10</Damage>
+       <Shots>2</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.25</TimeBetweenShots>
+       <ShotVelocity>600</ShotVelocity>
+       <ShotDuration>2</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.15</CastDelay>
+       <CastDuration>0.15</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnHit value="RingOfFire" target="Self">CastSpell</OnHit>
+     </Spell>
+     <Spell itemID="Yoyo">
+       <Stats animCast="FrostboltCharge" animShot="Yoyo" castSound="wiffle_buzz_fade" shotSound=""
+         setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>YoYo</Name>
+       <Tags>Player, Demo, Live, PvP</Tags>
+       <Action>Multishot</Action>
+       <Description>Hits going forward and back, gain mana on hit. </Description>
+       <Meta>Hits going forward and back, gain mana on hit</Meta>
+       <Rarity>0</Rarity>
+       <Brand>Convergence</Brand>
+       <Mana>3</Mana>
+       <Damage>50</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.05</TimeBetweenShots>
+       <ShotVelocity>0.1</ShotVelocity>
+       <ShotDuration>1.4</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.05</CastDelay>
+       <CastDuration>0.05</CastDuration>
+       <WarningDuration></WarningDuration>
+       <DestroyOnHit></DestroyOnHit>
+       <Params lerpDirection="Forward" lerpPattern="BounceGrid" lerpDelay="0"></Params>
+       <OnCast></OnCast>
+       <OnHit amount="2" target="Self">Mana</OnHit>
+       <OnHit duration="2" target="Hit">Root</OnHit>
+     </Spell>
+     <Spell itemID="YoyoX">
+       <Stats animCast="FrostboltCharge" animShot="Yoyo" castSound="wiffle_buzz_fade" shotSound=""
+         setToGunPoint="Both"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>YoYo-X</Name>
+       <Tags>Player, Demo, Live, PvP</Tags>
+       <Action>Multishot</Action>
+       <Description>Hits going forward and back, gain mana on hit. </Description>
+       <Meta>Hits going forward and back, gain mana on hit</Meta>
+       <Rarity>1</Rarity>
+       <Brand>Convergence</Brand>
+       <Mana>3</Mana>
+       <Damage>90+SpellPower*10</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.05</TimeBetweenShots>
+       <ShotVelocity>0.1</ShotVelocity>
+       <ShotDuration>1.4</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.05</CastDelay>
+       <CastDuration>0.05</CastDuration>
+       <WarningDuration></WarningDuration>
+       <DestroyOnHit></DestroyOnHit>
+       <Params lerpDirection="Forward" lerpPattern="BounceGrid" lerpDelay="0"></Params>
+       <OnCast></OnCast>
+       <OnHit amount="2" target="Self">Mana</OnHit>
+       <OnHit duration="2" target="Hit">Root</OnHit>
+     </Spell>
+    <Spell itemID="Recovery300">
+       <Stats animShot="" castSound="" shotSound="zap_fast" setToGunPoint="None"></Stats>
+       <HitAllies></HitAllies>
+       <HitSelf>true</HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>Recovery300</Name>
+       <Tags>Player, Demo, Live</Tags>
+       <Action>Multishot</Action>
+       <Description>Recover 300 HP. </Description>
+       <Meta>Recover 300 HP</Meta>
+       <Rarity>4</Rarity>
+       <Brand>Phalanx</Brand>
+       <Mana>4</Mana>
+       <Damage>0</Damage>
+       <Shots>1</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0</TimeBetweenShots>
+       <ShotVelocity>0</ShotVelocity>
+       <ShotDuration>0.1</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0</CastDelay>
+       <CastDuration>0.3</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnCast amount="300">HealBattle</OnCast>
+        <OnCast>Consume</OnCast>
+     </Spell>
+    <Spell itemID="Recovery80">
+         <Stats animShot="" castSound="" shotSound="zap_fast" setToGunPoint="None"></Stats>
+         <HitAllies></HitAllies>
+         <HitSelf>true</HitSelf>
+         <HitStructures>true</HitStructures>
+         <Name>Recovery80</Name>
+         <Tags>Player, Demo, Live</Tags>
+         <Action>Multishot</Action>
+         <Description>Recover 80 HP. </Description>
+         <Meta>Recover 80 HP</Meta>
+         <Rarity>1</Rarity>
+         <Brand>Phalanx</Brand>
+         <Mana>3</Mana>
+         <Damage>0</Damage>
+         <Shots>1</Shots>
+         <Tiles>1</Tiles>
+         <Location>End</Location>
+         <TimeBetweenShots>0</TimeBetweenShots>
+         <ShotVelocity>0</ShotVelocity>
+         <ShotDuration>0.1</ShotDuration>
+         <ShotDelay></ShotDelay>
+         <CastDelay>0</CastDelay>
+         <CastDuration>0.3</CastDuration>
+         <DestroyOnHit>true</DestroyOnHit>
+         <OnCast amount="80">HealBattle</OnCast>
+         <OnCast>Consume</OnCast>
+    </Spell>
+    <Spell itemID="GiantAxe">
+        <Stats animBlast="AxeHitZ" animShot="AxeHitZ" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsetX="1"
+          recoveryTime="0.3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>GiantAxe</Name>
+        <Tags>Player, PvP, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Slash 3x3 area in front. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>250</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>Front</Location>
+        <TimeBetweenShots>0.07</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>.5</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.1</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+    </Spell>
+    <Spell itemID="FlameAxe">
+        <Stats animBlast="AxeHitF" animShot="AxeHitF" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsetX="1"
+          recoveryTime="0.3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>FlameAxe</Name>
+        <Tags>Player, PvP, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Slash 3x3 area in front. Apply %hg%Flame%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>200</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>Front</Location>
+        <TimeBetweenShots>0.07</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>.5</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.1</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnHit>Flame</OnHit>
+    </Spell>
+    <Spell itemID="IcyAxe">
+        <Stats animBlast="AxeHitI" animShot="AxeHitI" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsetX="1"
+          recoveryTime="0.3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>IcyAxe</Name>
+        <Tags>Player, PvP, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Slash 3x3 area in front. Apply %hg%Frost%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>200</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>Front</Location>
+        <TimeBetweenShots>0.07</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>.5</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.1</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnHit>Frost</OnHit>
+    </Spell>
+    <Spell itemID="Invisible">
+      <Stats animCast="ManaBlast" animBlast="ManaBlast" castSound="laser_recharge" shotSound=""
+        setToGunPoint="None"></Stats>
+      <HitAllies>true</HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf>true</HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>Invisible</Name>
+      <Tags>Player</Tags>
+      <Action>Multishot</Action>
+      <Description>Become Invisible for 5 seconds. </Description>
+      <Meta>Become Invisible for 5 seconds</Meta>
+      <Rarity>3</Rarity>
+      <Brand>Convergence</Brand>
+      <Mana>4</Mana>
+      <Damage>0</Damage>
+      <Shots>1</Shots>
+      <Tiles>0</Tiles>
+      <Location>Front</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.3</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <BlastDuration>0.4</BlastDuration>
+      <DestroyOnHit>true</DestroyOnHit>
+      <OnHit target="Hit" duration="5">Invincible</OnHit>
+    </Spell>
+    <Spell itemID="FireSlash">
+      <Stats animBlast="AxeHitF" animShot="AxeHitF" castSound="woosh_large" shotSound="slice_clang"
+        setToGunPoint="None" hitboxWidth="2" hitboxHeight="3" spawnOffsetX="1" hitboxOffsetX="0.5"></Stats>
+      <HitAllies></HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf></HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>FireSlash</Name>
+      <Tags>Player</Tags>
+      <Action>Multishot</Action>
+      <Description>Hit 2x3 tiles in front. Apply %hg%Flame%/hg%. </Description>
+      <Meta></Meta>
+      <Rarity>1</Rarity>
+      <Brand>Slashfik</Brand>
+      <Mana>2</Mana>
+      <Damage>120</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>Front</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.2</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0</CastDelay>
+      <BlastDuration>0</BlastDuration>
+      <DestroyOnHit></DestroyOnHit>
+      <OnHit>Flame</OnHit>
+    </Spell>
+    <Spell itemID="IcySlash">
+      <Stats animBlast="AxeHitI" animShot="AxeHitI" castSound="woosh_large" shotSound="slice_clang"
+        setToGunPoint="None" hitboxWidth="2" hitboxHeight="3" spawnOffsetX="1" hitboxOffsetX="0.5"></Stats>
+      <HitAllies></HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf></HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>IcySlash</Name>
+      <Tags>Player</Tags>
+      <Action>Multishot</Action>
+      <Description>Hit 2x3 tiles in front. Apply %hg%Frost%/hg%. </Description>
+      <Meta></Meta>
+      <Rarity>1</Rarity>
+      <Brand>Slashfik</Brand>
+      <Mana>2</Mana>
+      <Damage>120</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>Front</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.2</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0</CastDelay>
+      <BlastDuration>0</BlastDuration>
+      <DestroyOnHit></DestroyOnHit>
+      <OnHit>Frost</OnHit>
+    </Spell>
+    <Spell itemID="ElecSlash">
+      <Stats animBlast="AxeHitE" animShot="AxeHitE" castSound="woosh_large" shotSound="slice_clang"
+        setToGunPoint="None" hitboxWidth="2" hitboxHeight="3" spawnOffsetX="1" hitboxOffsetX="0.5"></Stats>
+      <HitAllies></HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf></HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>ElecSlash</Name>
+      <Tags>Player</Tags>
+      <Action>Multishot</Action>
+      <Description>Hit 2x3 tiles in front. Apply %hg%Root%/hg%. </Description>
+      <Meta></Meta>
+      <Rarity>1</Rarity>
+      <Brand>Slashfik</Brand>
+      <Mana>2</Mana>
+      <Damage>120</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>Front</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.2</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0</CastDelay>
+      <BlastDuration>0</BlastDuration>
+      <DestroyOnHit></DestroyOnHit>
+      <OnHit duration="2">Root</OnHit>
+    </Spell>
+    <Spell itemID="DoubleBeast">
+      <Stats animBlast="Slash1x1" animShot="" introSound="woosh_large" shotSound="slice_clang"
+        effectLayer="true"></Stats>
+      <HitAllies></HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf></HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>DoubleBeast</Name>
+      <Tags>Player, Demo, Live</Tags>
+      <Action>Multishot</Action>
+      <Action>Darkness</Action>
+      <Description>Blackout screen and Slash all enemies. </Description>
+      <Meta></Meta>
+      <Rarity>4</Rarity>
+      <Brand>Slashfik</Brand>
+      <Mana>5</Mana>
+      <Damage>60</Damage>
+      <Shots>10</Shots>
+      <Tiles>0</Tiles>
+      <Location>Enemies</Location>
+      <TimeBetweenShots>0.05</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.15</ShotDuration>
+      <ShotDelay>0.1</ShotDelay>
+      <CastDelay>0</CastDelay>
+      <BlastDuration>0</BlastDuration>
+      <DestroyOnHit></DestroyOnHit>
+    </Spell>
+    <Spell itemID="MuRejection">
+      <Stats animShot="" castSound="zap_fast" shotSound="" setToGunPoint="None"></Stats>
+      <HitAllies></HitAllies>
+      <HitSelf>true</HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>Mu Rejection</Name>
+      <Tags>Player, Demo, Live</Tags>
+      <Action>Multishot</Action>
+      <Description>Give 1000 %hg%Shield%/hg%. </Description>
+      <Meta></Meta>
+      <Rarity>4</Rarity>
+      <Brand>Phalanx</Brand>
+      <Mana>5</Mana>
+      <Damage>Zero</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>Current</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0</CastDelay>
+      <DestroyOnHit>true</DestroyOnHit>
+      <OnCast amount="1000" target="Self">Shield</OnCast>
+      <OnCast>Consume</OnCast>
+    </Spell>
+    <Spell itemID="Aura">
+      <Stats animShot="" castSound="" shotSound="zap_fast" setToGunPoint="None"></Stats>
+      <HitAllies></HitAllies>
+      <HitSelf>true</HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>Aura</Name>
+      <Tags>Player, Demo, Live</Tags>
+      <Action>Multishot</Action>
+      <Description>Gain 280 %hg%Shield%/hg%. </Description>
+      <Meta></Meta>
+      <Rarity>1</Rarity>
+      <Brand>Phalanx</Brand>
+      <Mana>3</Mana>
+      <Damage>Zero</Damage>
+      <Shots>1</Shots>
+      <Tiles>1</Tiles>
+      <Location>End</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.1</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <CastDelay>0</CastDelay>
+      <CastDuration>0.3</CastDuration>
+      <DestroyOnHit>true</DestroyOnHit>
+      <OnCast amount="280">Shield</OnCast>
+    </Spell>
+      <Spell itemID="BusterMax">
+      <Stats animCast="ManaBlast" animBlast="ManaBlast" castSound="laser_recharge" shotSound=""
+        setToGunPoint="None"></Stats>
+      <HitAllies>true</HitAllies>
+      <HitEnemies>true</HitEnemies>
+      <HitSelf>true</HitSelf>
+      <HitStructures>true</HitStructures>
+      <Name>BusterMax</Name>
+      <Tags>Player</Tags>
+      <Action>Multishot</Action>
+      <Description>Gain 50 Weapon Damage. </Description>
+      <Meta>Gain 50 Atk Damage</Meta>
+      <Rarity>4</Rarity>
+      <Brand>Convergence</Brand>
+      <Mana>4</Mana>
+      <Damage>Zero</Damage>
+      <Shots>1</Shots>
+      <Tiles>0</Tiles>
+      <Location>End</Location>
+      <TimeBetweenShots>0</TimeBetweenShots>
+      <ShotVelocity>0</ShotVelocity>
+      <ShotDuration>0.3</ShotDuration>
+      <ShotDelay></ShotDelay>
+      <BlastDuration>0.4</BlastDuration>
+      <DestroyOnHit>true</DestroyOnHit>
+      <OnCast>Consume</OnCast>
+      <OnHit amount="50" duration="Infinite" target="Self">AtkDmgBattle</OnHit>
+    </Spell>
+      <Spell itemID="WarriorBlood">
+        <Stats animBlast="HurtBlast" introSound="swords_draw" shotSound="" setToGunPoint="None"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf>true</HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>WarriorBlood</Name>
+        <Tags>Player, PvP</Tags>
+        <Action>Storm</Action>
+        <Description>Apply 10 %hg%Fragile%/hg% to all beings. </Description>
+        <Meta></Meta>
+        <Rarity>2</Rarity>
+        <Brand>Miseri</Brand>
+        <Mana>2</Mana>
+        <Damage>Zero</Damage>
+        <Shots>-1</Shots>
+        <Tiles>0</Tiles>
+        <Location>Beings</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast></OnCast>
+        <OnHit amount="10">Fragile</OnHit>
+        <OnCast>Consume</OnCast>
+      </Spell>
+      <Spell itemID="QueenOphiuca">
+        <Stats animBlast="BeamTrinity" animShot="" introSound="laser_rocket" shotSound="beam_shot_low"
+          setToGunPoint="Both" hitboxWidth="8" hitboxHeight="1" hitboxOffsetX="4"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>QueenOphiuca</Name>
+        <Tags>Player, PvP</Tags>
+        <Action>Multishot</Action>
+        <Description>Shot a Laser. %hg%Root%/hg% for 2 sec. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>2</Mana>
+        <Damage>80</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnHit duration="2">Root</OnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="QueenOphiucaX">
+        <Stats animBlast="BeamTrinity" animShot="" introSound="laser_rocket" shotSound="beam_shot_low"
+          setToGunPoint="Both" hitboxWidth="8" hitboxHeight="1" hitboxOffsetX="4"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>QueenOphiucaX</Name>
+        <Tags>Player, PvP</Tags>
+        <Action>Multishot</Action>
+        <Description>Shot 3 Lasers. %hg%Root%/hg% for 2 sec. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>2</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>2</Mana>
+        <Damage>80+SpellPower*20</Damage>
+        <Shots>3</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnHit duration="2">Root</OnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="MadVulcan">
+        <Stats animBlast="BasicCast" animShot="BasicBullet" introSound="gun_cock_35ms"
+          shotSound="rubbery_snap_short" setToGunPoint="Both" yVariance="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>MadVulcan</Name>
+        <Tags>Player, Demo, Live, PvP</Tags>
+        <Action>Multishot</Action>
+        <Description>5-shot atk. Knocks enemy way back. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>1</Mana>
+        <Damage>10</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.12</TimeBetweenShots>
+        <ShotVelocity>1000</ShotVelocity>
+        <ShotDuration>0.28</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <OnHit amount="1" duration="0">Move</OnHit>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="MadVulcan3">
+        <Stats animBlast="BasicCast" animShot="BasicBullet" introSound="gun_cock_35ms"
+          shotSound="rubbery_snap_short" setToGunPoint="Both" yVariance="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>MadVulcan3</Name>
+        <Tags>Player, Demo, Live, PvP</Tags>
+        <Action>Multishot</Action>
+        <Description>10-shot atk. Knocks enemy way back. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>2</Mana>
+        <Damage>15</Damage>
+        <Shots>10</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.12</TimeBetweenShots>
+        <ShotVelocity>1000</ShotVelocity>
+        <ShotDuration>0.28</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <OnHit amount="1" duration="0">Move</OnHit>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="MadVulcanX">
+        <Stats animBlast="BasicCast" animShot="BasicBullet" introSound="gun_cock_35ms"
+          shotSound="rubbery_snap_short" setToGunPoint="Both" yVariance="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>MadVulcanX</Name>
+        <Tags>Player, Demo, Live, PvP</Tags>
+        <Action>Multishot</Action>
+        <Description>15-shot atk. Knocks enemy way back. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>3</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>3</Mana>
+        <Damage>15+SpellPower*2</Damage>
+        <Shots>15</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.12</TimeBetweenShots>
+        <ShotVelocity>1000</ShotVelocity>
+        <ShotDuration>0.28</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <OnHit amount="1" duration="0">Move</OnHit>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="ThunderHead">
+        <Stats animBlast="Thunder" castSound="" shotSound="thunderclap_light" setToGunPoint="None"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>ThunderHead</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Storm</Action>
+        <Description>Rains down 3 waves of 6 thunderstrikes on random enemy tiles. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>2</Mana>
+        <Damage>50</Damage>
+        <Shots>6</Shots>
+        <Tiles>1</Tiles>
+        <Location>RandOtherUnique</Location>
+        <TimeBetweenShots>0.05</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <Params numOfWaves="3" timeBetweenWaves="0.7"></Params>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="ThunderHeadX">
+        <Stats animBlast="Thunder" castSound="" shotSound="thunderclap_light" setToGunPoint="None"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>ThunderHeadX</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Storm</Action>
+        <Description>Rains down 5 waves of 10 thunderstrikes on random enemy tiles. </Description>
+        <Meta></Meta>
+        <Rarity>2</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>4</Mana>
+        <Damage>50+SpellPower*10</Damage>
+        <Shots>10</Shots>
+        <Tiles>1</Tiles>
+        <Location>RandOtherUnique</Location>
+        <TimeBetweenShots>0.05</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <Params numOfWaves="5" timeBetweenWaves="0.7"></Params>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="HarpNote">
+        <Stats animBlast="MusicMeasureShot" animShot="MusicMeasureShot" shotSound="violin_shot_01"
+          setToGunPoint="Both"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>HarpNote</Name>
+        <Description>5 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
+        <Tags>Player</Tags>
+        <Action>Multishot</Action>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Convergence</Brand>
+        <Mana>2</Mana>
+        <Damage>25</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location>Current</Location>
+        <TimeBetweenShots>0.2</TimeBetweenShots>
+        <ShotVelocity>500</ShotVelocity>
+        <ShotDuration>1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <CastDuration></CastDuration>
+        <BlastDuration></BlastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast></OnCast>
+        <OnHit amount="1" target="Hit">Fragile</OnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="HarpNoteX">
+        <Stats animBlast="MusicMeasureShot" animShot="MusicMeasureShot" shotSound="violin_shot_01"
+          setToGunPoint="Both"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>HarpNoteX</Name>
+        <Description>5 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
+        <Tags>Player</Tags>
+        <Action>Multishot</Action>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Convergence</Brand>
+        <Mana>3</Mana>
+        <Damage>35+SpellPower*20</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location>Current</Location>
+        <TimeBetweenShots>0.2</TimeBetweenShots>
+        <ShotVelocity>500</ShotVelocity>
+        <ShotDuration>1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <CastDuration></CastDuration>
+        <BlastDuration></BlastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast></OnCast>
+        <OnHit amount="1" target="Hit">Fragile</OnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="SwordFighter1">
+        <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>SwordFighter1</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Mad 3-slash sword attack in front. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>50</Damage>
+        <Shots>3</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="SwordFighter2">
+        <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>SwordFighter2</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Mad 4-slash sword attack in front. </Description>
+        <Meta></Meta>
+        <Rarity>2</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>60</Damage>
+        <Shots>4</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="SwordFighter3">
+        <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>SwordFighter3</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Mad 5-slash sword attack in front. </Description>
+        <Meta></Meta>
+        <Rarity>3</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>3</Mana>
+        <Damage>70</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="SwordFighterX">
+        <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>SwordFighterX</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Mad 5-slash sword attack in front. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>5</Mana>
+        <Damage>100+SpellPower*5</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+      </Spell>
+      <Spell itemID="Muramasa">
+        <Stats animBlast="AxeHitD" animShot="AxeHitD" castSound="woosh_large" shotSound="slice_clang"
+        setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsestX="1"
+        recoveryTime="0.3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>Muramasa</Name>
+        <Tags>Player</Tags>
+        <Action>Multishot</Action>
+        <Description>Hit 3x3 tiles in front. Damage = missing health. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>4</Mana>
+        <Damage>MissingHP</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>Front</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast>Consume</OnCast>
+      </Spell>
+      <Spell itemID="JetSki">
+        <Stats animBlast="Slash4x1" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" hitboxWidth="4" hitboxHeight="1" hitboxOffsetX="-0.5" recoveryTime="0.15"
+          pierceShield="true"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>JetSki</Name>
+        <Tags>Player, Demo, PvP</Tags>
+        <Action>StepSlash</Action>
+        <Description>Dash fwd 3 tiles and hit them. Apply %hg%Frost%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>2</Mana>
+        <Damage>150</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.15</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.15</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnHit>Frost</OnHit>
+      </Spell>
+      <Spell itemID="JetSkiX">
+        <Stats animBlast="Slash4x1" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" hitboxWidth="4" hitboxHeight="1" hitboxOffsetX="-0.5" recoveryTime="0.15"
+          pierceShield="true"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>JetSkiX</Name>
+        <Tags>Player, Demo, PvP</Tags>
+        <Action>StepSlash</Action>
+        <Description>Dash fwd 3 tiles and hit them. Apply %hg%Frost%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>3</Mana>
+        <Damage>170+SpellPower*20</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.15</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.15</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnHit>Frost</OnHit>
+      </Spell>
+      <Spell itemID="TurrentWave">
+        <Stats animCast="" animShot="ColdWave" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>TurrentWave</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 4 wave a row wide. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>5</Mana>
+        <Damage>150</Damage>
+        <Shots>4</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.3</TimeBetweenShots>
+        <ShotVelocity>400</ShotVelocity>
+        <ShotDuration>3</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast>Consume</OnCast>
+      </Spell>
+      <Spell itemID="GeminiThunder">
+        <Stats animCast="" animShot="ElecWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>GeminiThunder</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 4 wave a row wide. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>5</Mana>
+        <Damage>150</Damage>
+        <Shots>4</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.3</TimeBetweenShots>
+        <ShotVelocity>400</ShotVelocity>
+        <ShotDuration>3</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast>Consume</OnCast>
+      </Spell>
+      <Spell itemID="ApolloFlame">
+        <Stats animCast="FireCharge" animShot="HeatWave" introSound="" shotSound="flare" setToGunPoint="Both" hitboxHeight="3"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>ApolloFlame</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 4 wave a row wide. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>5</Mana>
+        <Damage>150</Damage>
+        <Shots>4</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.3</TimeBetweenShots>
+        <ShotVelocity>400</ShotVelocity>
+        <ShotDuration>3</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.3</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast>Consume</OnCast>
+      </Spell>
+      <Spell itemID="GrandWave">
+        <Stats animCast="" animShot="GrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>GrandWave</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Piercing wave attack. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>1</Mana>
+        <Damage>50</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>4</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <OnHit amount="1" duration="0">Move</OnHit>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="GrandWaveX">
+        <Stats animCast="" animShot="GrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>GrandWaveX</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Piercing wave attack. %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>2</Mana>
+        <Damage>50+SpellPower*20</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>4</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast amount="1">Trinity</OnCast>
+        <OnHit amount="1" duration="0">Move</OnHit>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="BreakSabre">
+        <Stats animBlast="BreakSabre" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>BreakSabre</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Hit 2x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>2</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>2</Mana>
+        <Damage>200</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="BreakSabreX">
+        <Stats animBlast="BreakSabre" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>BreakSabreX</Name>
+        <Tags>Player</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Hit 2x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>3</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>3</Mana>
+        <Damage>200+SpellPower*20</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+        <OnCast amount="1">Trinity</OnCast>
+        <TrinityCast>DoubleCast</TrinityCast>
+      </Spell>
+      <Spell itemID="ExtiMeteor">
+        <Stats animBlast="StormFireS" animShot="" shotSound="small_blast" setToGunPoint="None"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>Extinction Meteor</Name>
+        <Tags>Player</Tags>
+        <Action>Storm</Action>
+        <Description>Rains down 9 waves of 3 burning shots on random tiles. </Description>
+        <Meta></Meta>
+        <Rarity>4</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>5</Mana>
+        <Damage>70</Damage>
+        <Shots>3</Shots>
+        <Tiles>1</Tiles>
+        <Location>RandOtherUnique</Location>
+        <TimeBetweenShots>0.05</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.2</ShotDuration>
+        <ShotDelay>0.1</ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.45</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <Params numOfWaves="9" timeBetweenWaves="0.7"></Params>
+        <OnCast></OnCast>
+        <TouchTile>Flame</TouchTile>
+      </Spell>
+      <Spell itemID="BlastMan">
+        <Stats animWarning="WarningDangerC" animCast="FireCharge" animShot="Firebolt" castSound="foom"
+          shotSound="" setToGunPoint="Vertical"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>BlastMan</Name>
+        <Tags>Player</Tags>
+        <Action>Multishot</Action>
+        <Description>Charge for 0.3s then fire 6 firebolts from random tiles.</Description>
+        <Meta></Meta>
+        <Rarity>3</Rarity>
+        <Brand>Anima</Brand>
+        <Mana>4</Mana>
+        <Damage>120</Damage>
+        <Shots>7</Shots>
+        <Tiles>4</Tiles>
+        <Location>RandAlliedUnique</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>750</ShotVelocity>
+        <ShotDuration>1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.4</CastDelay>
+        <CastDuration>0.4</CastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast></OnCast>
+        <OnHit>Flame</OnHit>
+      </Spell>
+      <Spell itemID="RiskHoney2">
+        <Stats animCast="" animShot="RiskHoney" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>RiskHoney2</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Bees 5-shot attack. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>1</Mana>
+        <Damage>25</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>500</ShotVelocity>
+        <ShotDuration>2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast amount="2" target="Self">FlowStack</OnCast>
+      </Spell>
+      <Spell itemID="RiskHoneyX">
+        <Stats animCast="" animShot="RiskHoney" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>RiskHoneyX</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Bees 5-shot attack. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>2</Mana>
+        <Damage>35+SpellPower*5</Damage>
+        <Shots>5</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>500</ShotVelocity>
+        <ShotDuration>2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>true</DestroyOnHit>
+        <OnCast amount="2" target="Self">FlowStack</OnCast>
+      </Spell>
+      <Spell itemID="RollingLog">
+        <Stats animCast="" animShot="RollingLog" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="2"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>RollingLog</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 2 logs forward. </Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>1</Mana>
+        <Damage>80</Damage>
+        <Shots>2</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast amount="2" target="Self">FlowStack</OnCast>
+      </Spell>
+      <Spell itemID="RollingLogX">
+        <Stats animCast="" animShot="RollingLog" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="2"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>RollingLogX</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 2 logs forward. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Hearth</Brand>
+        <Mana>2</Mana>
+        <Damage>100+SpellPower*10</Damage>
+        <Shots>2</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast amount="2" target="Self">FlowStack</OnCast>
+      </Spell>
+      <Spell itemID="PoisonSword">
+          <Stats animBlast="AxeHitD" animShot="AxeHitD" castSound="woosh_large" shotSound="slice_clang"
+            setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsestX="1"
+            recoveryTime="0.3"></Stats>
+          <HitAllies></HitAllies>
+          <HitEnemies>true</HitEnemies>
+          <HitSelf></HitSelf>
+          <HitStructures>true</HitStructures>
+          <Name>Poison Sword</Name>
+          <Tags>Player, PvP, Live</Tags>
+          <Action>Multishot</Action>
+          <Description>Hit 3x3 tiles in front. Apply 100 %hg%Poison%/hg%. </Description>
+          <Meta></Meta>
+          <Rarity>2</Rarity>
+          <Brand>Slashfik</Brand>
+          <Mana>3</Mana>
+          <Damage>260</Damage>
+          <Shots>1</Shots>
+          <Tiles>1</Tiles>
+          <Location>Front</Location>
+          <TimeBetweenShots>0</TimeBetweenShots>
+          <ShotVelocity>0</ShotVelocity>
+          <ShotDuration>0.2</ShotDuration>
+          <ShotDelay></ShotDelay>
+          <CastDelay>0</CastDelay>
+          <BlastDuration>0</BlastDuration>
+          <DestroyOnHit></DestroyOnHit>
+          <OnHit amount="100">Poison</OnHit>
+      </Spell>
+</Spells>
+
+
+
+

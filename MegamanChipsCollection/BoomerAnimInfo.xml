@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="Boomer" frameDuration="200">
+  <Frame image="attacks/Boomer1.png"></Frame>
+  <Frame image="attacks/Boomer2.png"></Frame>
+  <Frame image="attacks/Boomer3.png"></Frame>
+  <Frame image="attacks/Boomer4.png"></Frame>
+</Animation>

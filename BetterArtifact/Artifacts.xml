@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artifacts>
+  <Artifact itemID="NinjaBlood">
+    <Name>Ninja Blood</Name>
+    <Tags>Player, Demo, Solo</Tags>
+    <App trigger="OnEquip" effect="AlterCard" value="Kunai"></App>
+    <App trigger="OnReshuffle" effect="Trinity" amount="1"></App>
+    <Description>Kunais deal 90 damage, gain 1 Trinity on Reshuffle.</Description>
+    <Meta>Kunais deal 90 damage, gain 1 Trinity on Reshuffle.</Meta>
+    <Flavor>We are kunai specialist.</Flavor>
+    <Rarity>1</Rarity>
+    <Params damage="90"></Params>
+  </Artifact>
+  <Artifact itemID="ToxicSpecialist">
+    <Name>Toxic Specialist</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnAnyHit" effect="Poison" target="Hit" check="SpellID" checkValue="Kunai"
+      amount="40"></App>
+    <Description>Kunais apply 40 Poison.</Description>
+    <Meta>Kunais apply 40 Poison.</Meta>
+    <Flavor>He fainted because of the poisoned kunai.</Flavor>
+    <Rarity>2</Rarity>
+    <Brand></Brand>
+  </Artifact>
+  <Artifact itemID="NinjaLife">
+    <Name>Ninja's Life</Name>
+    <Tags>Player, Demo, Solo</Tags>
+    <App trigger="OnBattleStart" effect="AddToDeck" amount="3" value="Kunai"></App>
+    <App trigger="OnBattleEnd" effect="Money" amount="-5"></App>
+    <Description>Add 3 Kunais to your deck at start of battle, lost 5 Sera(Money) after every battle.</Description>
+    <Meta>Add 3 Kunais to your deck at start of battle, lost 5 Sera(Money) after every battle.</Meta>
+    <Flavor>When your parents ask where all your money went</Flavor>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="JamToKun">
+    <Name>Jam-To-Kun</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnJamCast" effect="CastSpell" value="Kunai"></App>
+    <Description>On Jam cast, cast kunai.</Description>
+    <Meta>On Jam cast, cast kunai.</Meta>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="NinjaSystem">
+    <Name>Ninja System</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnLandHit" effect="Shield" target="Self" value="Kunai" check="SpellID"
+      checkValue="Kunai" amount="10"></App>  
+    <Description>Gain shield whenever kunai dmg is dealt.</Description>
+    <Meta>Gain shield whenever kunai dmg is dealt.</Meta>
+    <Rarity>2</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="NinjaLongSleeves">
+    <Name>Ninja's Long Sleeves</Name>
+    <Tags>Player, Demo</Tags>
+    <App trigger="OnTakeHit" effect="AddToDeck" amount="2" value="Kunai"></App>
+    <Description>When you get hit add 2 Kunais to your deck.</Description>
+    <Meta>When you get hit add 2 Kunais to your deck.</Meta>
+    <Rarity>3</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="TimePierce">
+    <Name>Time Pierce</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnReshuffle" effect="Chrono" duration="2" amount="0.001"></App>
+    <App trigger="OnReshuffle" effect="Trinity" amount="1"></App>
+    <Description>Stop time for 2 seconds and Gain 1 Trinity when you shuffle.</Description>
+    <Meta>Stop time for 2 seconds and Gain 1 Trinity when you shuffle.</Meta>
+    <Flavor>Za Wārudo!</Flavor>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="SpiritFury">
+    <Name>Spirit Fury</Name>
+    <Tags>Player, Negative, Solo</Tags>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="-300"></App>
+    <App trigger="OnEquip" effect="MaxMana" amount="4"></App>
+    <App trigger="OnEquip" effect="SpellPower" amount="3"></App>
+    <Description>+4 Max mana, +3 SpellPower, -300 Max HP</Description>
+    <Meta>+4 Max mana, +3 SpellPower, -300 Max HP</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+</Artifacts>

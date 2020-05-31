@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="HeatWave" frameDuration="140">
+  <Frame image="attacks/HeatWave.png"></Frame>
+  <Frame image="attacks/HeatWave.png"></Frame>
+  <Frame image="attacks/HeatWave.png"></Frame>
+  <Frame image="attacks/HeatWave.png"></Frame>
+  <Frame image="attacks/HeatWave.png"></Frame>
+</Animation>

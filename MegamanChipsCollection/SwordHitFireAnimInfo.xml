@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="false" name="SwordHitFire" frameDuration="50">
+  <Frame image="attacks/SwordHit1Fire.png"></Frame>
+  <Frame image="attacks/SwordHit2Fire.png"></Frame>
+  <Frame image="attacks/swordhit3Fire.png"></Frame>
+  <Frame image="attacks/SwordHit4Fire.png"></Frame>
+</Animation>

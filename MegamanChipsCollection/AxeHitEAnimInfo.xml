@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="false" name="AxeHitE" frameDuration="60">
+	<Frame image="attacks/AxeHitE0.png"></Frame>
+	<Frame image="attacks/AxeHitE1.png"></Frame>
+	<Frame image="attacks/AxeHitE2.png"></Frame>
+	<Frame image="attacks/AxeHitE3.png"></Frame>
+</Animation>

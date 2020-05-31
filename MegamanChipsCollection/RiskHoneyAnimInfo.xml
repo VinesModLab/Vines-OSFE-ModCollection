@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="RiskHoney" frameDuration="140">
+  <Frame image="attacks/RiskHoney0.png"></Frame>
+  <Frame image="attacks/RiskHoney1.png"></Frame>
+  <Frame image="attacks/RiskHoney0.png"></Frame>
+  <Frame image="attacks/RiskHoney1.png"></Frame>
+  <Frame image="attacks/RiskHoney0.png"></Frame>
+  <Frame image="attacks/RiskHoney1.png"></Frame>
+</Animation>

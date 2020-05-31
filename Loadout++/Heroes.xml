@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="TrueSaffron">
+    <Name>Saffron</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor>True Saffron.</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StormSword</Deck>
+    <Deck>Ragnarok</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>CassidyScarf</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>PocketWatch</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="DarkSaffron">
+    <Name>Saffron</Name>
+    <Title>Forte</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor>Dark Saffron.</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <Money>9000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Artifacts>SoulFood</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>PocketWatch</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TrueHazel">
+    <Name>Hazel</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Hazel</Tags>
+    <Description>Hexawan engineer, builds dangerous things.</Description>
+    <Flavor>True Hazel.</Flavor>
+    <Weapon>UpgradeWrench</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Castle</Deck>
+    <Deck>SumTurretgun</Deck>
+    <Deck>SumTurretsd</Deck>
+    <Deck>Sidewinder</Deck>
+    <Artifacts>HexBadge</Artifacts>
+    <Artifacts>AdaptiveArmor</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>FlashLoader</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Hazel" altAnims="HazelPriestess"
+      splashSprite="HazelSplash" startingBrands="Hexawan,None"></Stats>
+  </Being>
+  <Being beingID="TrueShiso">
+    <Name>Shiso</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Shiso</Tags>
+    <Description>Judge, jury, and executioner.</Description>
+    <Flavor>True Shiso.</Flavor>
+    <Weapon>ShisoGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SeraCannon</Deck>
+    <Deck>ClawTraps</Deck>
+    <Deck>HiredGun</Deck>
+    <Deck>HiredGun</Deck>
+    <Artifacts>BloodMoney</Artifacts>
+    <Artifacts>EmptyBottle</Artifacts>
+    <Artifacts>FlashLoader</Artifacts>
+    <Artifacts>MicroMissiles</Artifacts>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
+      splashSprite="ShisoSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TrueViolette">
+    <Name>Violette</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>True Violette.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.3</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Corset</Deck>
+    <Deck>Monsoon</Deck>
+    <Deck>TriForce</Deck>
+    <Deck>PowerSaws</Deck>
+    <Artifacts>Feather</Artifacts>
+    <Artifacts>GlassCannon</Artifacts>
+    <Artifacts>Mirror</Artifacts>
+    <Artifacts>Thorn</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="DarkViolette">
+    <Name>Violette</Name>
+    <Title>Forte</Title>
+    <Tags>Campaign, Violette</Tags>
+    <Description>A graceful violinist.</Description>
+    <Flavor>Dark Violette.</Flavor>
+    <Weapon>ViGun</Weapon>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <Money>9000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Artifacts>SoulFood</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Feather</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Violette" altAnims="VioletteJRock"
+      splashSprite="VioletteSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TrueTerra">
+    <Name>Terra</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Terra, Attack</Tags>
+    <Description>Cult leader who likes to break things.</Description>
+    <Flavor>True Terra.</Flavor>
+    <Weapon>Terraform</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Prophecy</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>Excavate</Deck>
+    <Deck>OrbitalBeam</Deck>
+    <Artifacts>Moonstone</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Granite</Artifacts>
+    <Artifacts>Aether</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" altAnims="TerraDreadwyrm"
+      splashSprite="TerraSplash" startingBrands="Hearth,None"></Stats>
+  </Being>
+  <Being beingID="DarkTerra">
+    <Name>Terra</Name>
+    <Title>Forte</Title>
+    <Tags>Campaign, Terra, Attack</Tags>
+    <Description>Cult leader who likes to break things.</Description>
+    <Flavor>Dark Terra.</Flavor>
+    <Weapon>Terraform</Weapon>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <Money>9000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Deck>PowerSaws</Deck>
+    <Artifacts>SoulFood</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Moonstone</Artifacts>
+    <Stats localGunPointPos="20,28" animName="Terra" altAnims="TerraDreadwyrm"
+      splashSprite="TerraSplash" startingBrands="Hearth,None"></Stats>
+  </Being>
+  <Being beingID="TrueSelicy">
+    <Name>Selicy</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Selicy, Attack</Tags>
+    <Description>Over your cold, dead body.</Description>
+    <Flavor>True Selicy.</Flavor>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.4</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ColdSnap</Deck>
+    <Deck>FrostBarrage</Deck>
+    <Deck>IceNeedle</Deck>
+    <Deck>StormBlizzard</Deck>
+    <Artifacts>CoolShoes</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>ColdBlooded</Artifacts>
+    <Artifacts>SnowBoots</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TrueGunner">
+    <Name>Gunner</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Gunner, Attack</Tags>
+    <Description>Mercenary hot shot, uses his gun to solve problems.</Description>
+    <Flavor>True Gunner.</Flavor>
+    <Weapon>GunnerGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Firewall</Deck>
+    <Deck>BombToss</Deck>
+    <Deck>StormFire</Deck>
+    <Deck>BlueBullets</Deck>
+    <Artifacts>CoverFire</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>FlashLoader</Artifacts>
+    <Artifacts>LinkCable</Artifacts>
+    <Stats localGunPointPos="30,25" animName="Gunner" altAnims="GunnerBuccaneer"
+      splashSprite="GunnerSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TrueReva">
+    <Name>Reva</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Reva</Tags>
+    <Description>Shieldmaiden and activist. A shield for the defenseless.</Description>
+    <Flavor>True Reva.</Flavor>
+    <Weapon>CampaignReflector</Weapon>
+    <Health>2000</Health>
+    <MaxHealth>3000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>2</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>ShieldCatch</Deck>
+    <Deck>ShieldThrow</Deck>
+    <Deck>DiagBeam</Deck>
+    <Deck>ShieldBeam</Deck>
+    <Artifacts>Eschaton</Artifacts>
+    <Artifacts>MeatShield</Artifacts>
+    <Artifacts>DuctTape</Artifacts>
+    <Artifacts>RescueBadge</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Reva" altAnims="RevaCyber" splashSprite="RevaSplash"
+      startingBrands="Phalanx,None"></Stats>
+  </Being>
+  <Being beingID="TrueShopkeeper">
+    <Name>Shopkeeper</Name>
+    <Title>True Mode</Title>
+    <Tags>Campaign, Shopkeeper</Tags>
+    <Description>Capitalism ho.</Description>
+    <Flavor>True Shopkeeper</Flavor>
+    <Weapon>ShopkeeperGun</Weapon>
+    <Health>2000</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>2000</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>HiredGun</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>CounterStrike</Deck>
+    <Deck>SeraCannon</Deck>
+    <Artifacts>Beret</Artifacts>
+    <Artifacts>RescueBadge</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Shopcreeper" altAnims="ShopcreeperLegacy"
+      splashSprite="ShopkeeperSplash" startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="DarkShopkeeper">
+    <Name>Shopkeeper</Name>
+    <Title>Forte</Title>
+    <Tags>Campaign, Shopkeeper</Tags>
+    <Description>Capitalism ho.</Description>
+    <Flavor>Dark Shopkeeper</Flavor>
+    <Weapon>ShopkeeperGun</Weapon>
+    <Health>100</Health>
+    <MaxHealth>100</MaxHealth>
+    <Money>9000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>BowSnipe</Deck>
+    <Deck>BowSnipe</Deck>
+    <Deck>SeraCannon</Deck>
+    <Deck>SeraCannon</Deck>
+    <Artifacts>SoulFood</Artifacts>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>BloodMoney</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Shopcreeper" altAnims="ShopcreeperLegacy"
+      splashSprite="ShopkeeperSplash" startingBrands="None,None"></Stats>
+  </Being>
+</Beings>

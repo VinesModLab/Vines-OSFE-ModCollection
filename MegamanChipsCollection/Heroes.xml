@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="TestSaffron">
+    <Name>Saffron</Name>
+    <Title>Test</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>WideWave3</Deck>
+    <Deck>WideWaveX</Deck>
+    <Deck>HeatShot</Deck>
+    <Deck>HeatShotX</Deck>
+    <Deck>ZeroSword</Deck>
+    <Deck>IcySword</Deck>
+    <Deck>ColdHero</Deck>
+    <Deck>FireSword</Deck>
+    <Deck>HeatHero</Deck>
+    <Deck>ElecSword</Deck>
+    <Deck>ElecHero</Deck>
+    <Deck>EdogiriBlade</Deck>
+    <Deck>EdogiriBladeX</Deck>
+    <Deck>SonicSword1</Deck>
+    <Deck>BlastSwing</Deck>
+    <Deck>BlastSwingX</Deck>
+    <Deck>TribeKing</Deck>
+    <Deck>FireBoomerang</Deck>
+    <Deck>IcyBoomerang</Deck>
+    <Deck>PiranhaKiss3</Deck>
+    <Deck>PiranhaKissX</Deck>
+    <Deck>DanceFire</Deck>
+    <Deck>DanceFireX</Deck>
+    <Deck>Yoyo</Deck>
+    <Deck>YoyoX</Deck>
+    <Deck>Recovery300</Deck>
+    <Deck>Recovery80</Deck>
+    <Deck>GiantAxe</Deck>
+    <Deck>FlameAxe</Deck>
+    <Deck>IcyAxe</Deck>
+    <Deck>Invisible</Deck>
+    <Deck>FireSlash</Deck>
+    <Deck>ElecSlash</Deck>
+    <Deck>DoubleBeast</Deck>
+    <Deck>MuRejection</Deck>
+    <Deck>Aura</Deck>
+    <Deck>BusterMax</Deck>
+    <Deck>WarriorBlood</Deck>
+    <Deck>QueenOphiuca</Deck>
+    <Deck>QueenOphiucaX</Deck>
+    <Deck>MadVulcan</Deck>
+    <Deck>MadVulcan3</Deck>
+    <Deck>MadVulcanX</Deck>
+    <Deck>ThunderHead</Deck>
+    <Deck>ThunderHeadX</Deck>
+    <Deck>HarpNote</Deck>
+    <Deck>HarpNoteX</Deck>
+    <Deck>SwordFighter1</Deck>
+    <Deck>SwordFighter2</Deck>
+    <Deck>SwordFighter3</Deck>
+    <Deck>SwordFighterX</Deck>
+    <Deck>Muramasa</Deck>
+    <Deck>JetSki</Deck>
+    <Deck>JetSkiX</Deck>
+    <Deck>TurrentWave</Deck>
+    <Deck>GeminiThunder</Deck>
+    <Deck>ApolloFlame</Deck>
+    <Deck>GrandWave</Deck>
+    <Deck>GrandWaveX</Deck>
+    <Deck>BreakSabre</Deck>
+    <Deck>BreakSabreX</Deck>
+    <Deck>ExtiMeteor</Deck>
+    <Deck>BlastMan</Deck>
+    <Deck>RiskHoney2</Deck>
+    <Deck>RiskHoneyX</Deck>
+    <Deck>RollingLog</Deck>
+    <Deck>RollingLogX</Deck>
+    <Deck>PoisonSword</Deck>
+    <Artifacts>BlueBlood</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Test2Saffron">
+    <Name>Saffron</Name>
+    <Title>Test2</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor></Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>1000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>TurrentWave</Deck>
+    <Deck>GeminiThunder</Deck>
+    <Deck>ApolloFlame</Deck>
+    <Artifacts>BlueBlood</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="TestSelicy">
+    <Name>Selicy</Name>
+    <Title>Test</Title>
+    <Tags>Campaign, Selicy, Attack</Tags>
+    <Description>Over your cold, dead body.</Description>
+    <Flavor>Selicy.</Flavor>
+    <Weapon>SelicyFrostStep</Weapon>
+    <Health>1500</Health>
+    <MaxHealth>2000</MaxHealth>
+    <Money>9000</Money>
+    <MaxMana>99</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.4</ManaRegen>
+    <ShuffleTime>1.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>SwordFighterX</Deck>
+    <Deck>TribeKing</Deck>
+    <Deck>Invisible</Deck>
+    <Deck>ZeroSword</Deck>
+    <Deck>Aura</Deck>
+    <Deck>DoubleBeast</Deck>
+    <Deck>MuRejection</Deck>
+    <Artifacts>BlueBlood</Artifacts>
+    <Artifacts>UnicornBomb</Artifacts>
+    <Artifacts>Wings</Artifacts>
+    <Artifacts>Static</Artifacts>
+    <Artifacts>Aether</Artifacts>
+    <Artifacts>FlashLoader</Artifacts>
+    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
+      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
+  </Being>
+</Beings>

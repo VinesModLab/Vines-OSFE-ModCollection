@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="ElecWave" frameDuration="140">
+  <Frame image="attacks/ElecWave.png"></Frame>
+  <Frame image="attacks/ElecWave.png"></Frame>
+  <Frame image="attacks/ElecWave.png"></Frame>
+  <Frame image="attacks/ElecWave.png"></Frame>
+  <Frame image="attacks/ElecWave.png"></Frame>
+</Animation>

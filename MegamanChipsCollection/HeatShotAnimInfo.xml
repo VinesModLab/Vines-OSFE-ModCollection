@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="HeatShot" frameDuration="100">
+  <Frame image="attacks/HeatShot1.png"></Frame>
+  <Frame image="attacks/HeatShot2.png"></Frame>
+  <Frame image="attacks/HeatShot3.png"></Frame>
+</Animation>

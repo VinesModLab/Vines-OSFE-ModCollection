@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>2039525141</PublishedFileId>
+  <Name>Better Ninja Artifact</Name>
+  <Description>Powerful Ninja Artifacts.
+  
+  ===Ninja Blood===
+  Kunais deal 90 damage, gain 1 Trinity on Reshuffle
+  "We are kunai specialist."
+  
+  ===Toxic Specialist===
+  Kunais apply 40 Poison
+  "He fainted because of the poisoned kunai."
+  
+  ===Ninja's </Description>
+  <IconFileName>workshopIcon.png</IconFileName>
+  <Tags>
+    <string>Artifacts</string>
+  </Tags>
+  <Priority>0</Priority>
+  <ModVersion>0</ModVersion>
+  <GameVersion>1.4.2</GameVersion>
+</WorkshopItemInfo>
