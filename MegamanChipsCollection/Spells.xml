@@ -11,9 +11,9 @@
       <Action>Multishot</Action>
       <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Frost%/hg%. </Description>
       <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
-      <Rarity>0</Rarity>
+      <Rarity>1</Rarity>
       <Brand>Anima</Brand>
-      <Mana>1</Mana>
+      <Mana>2</Mana>
       <Damage>20</Damage>
       <Shots>1</Shots>
       <Tiles>1</Tiles>
@@ -41,8 +41,8 @@
     <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
     <Rarity>2</Rarity>
     <Brand>Anima</Brand>
-    <Mana>2</Mana>
-    <Damage>40+SpellPower*20</Damage>
+    <Mana>3</Mana>
+    <Damage>25+SpellPower*5</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>End</Location>
@@ -69,8 +69,8 @@
     <Meta>Powerful fireball explodes on hit and damages nearby enemies.</Meta>
     <Rarity>0</Rarity>
     <Brand>Anima</Brand>
-    <Mana>1</Mana>
-    <Damage>40</Damage>
+    <Mana>2</Mana>
+    <Damage>30</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>End</Location>
@@ -99,7 +99,7 @@
     <Rarity>2</Rarity>
     <Brand>Anima</Brand>
     <Mana>2</Mana>
-    <Damage>80+SpellPower*10</Damage>
+    <Damage>50+SpellPower*10</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>End</Location>
@@ -598,11 +598,11 @@
        <Name>PiranhaKiss3</Name>
        <Tags>Player, Demo, Live</Tags>
        <Action>Multishot</Action>
-       <Description>Piranha Hits enemy with arrows. </Description>
+       <Description>Piranha Hits enemy with 3 arrows. </Description>
        <Meta></Meta>
-       <Rarity>0</Rarity>
+       <Rarity>1</Rarity>
        <Brand>Anima</Brand>
-       <Mana>1</Mana>
+       <Mana>3</Mana>
        <Damage>25</Damage>
        <Shots>3</Shots>
        <Tiles>1</Tiles>
@@ -626,12 +626,12 @@
        <Name>PiranhaKissX</Name>
        <Tags>Player, Demo, Live</Tags>
        <Action>Multishot</Action>
-       <Description>Piranha Hits enemy with arrows. </Description>
+       <Description>Piranha Hits enemy with 3 arrows. </Description>
        <Meta></Meta>
        <Rarity>2</Rarity>
        <Brand>Anima</Brand>
-       <Mana>2</Mana>
-       <Damage>50+SpellPower*5</Damage>
+       <Mana>3</Mana>
+       <Damage>25+SpellPower*5</Damage>
        <Shots>3</Shots>
        <Tiles>1</Tiles>
        <Location>End</Location>
@@ -832,8 +832,8 @@
         <Meta></Meta>
         <Rarity>1</Rarity>
         <Brand>Slashfik</Brand>
-        <Mana>2</Mana>
-        <Damage>250</Damage>
+        <Mana>3</Mana>
+        <Damage>200</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>Front</Location>
@@ -861,8 +861,8 @@
         <Meta></Meta>
         <Rarity>1</Rarity>
         <Brand>Slashfik</Brand>
-        <Mana>2</Mana>
-        <Damage>200</Damage>
+        <Mana>3</Mana>
+        <Damage>150</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>Front</Location>
@@ -891,8 +891,8 @@
         <Meta></Meta>
         <Rarity>1</Rarity>
         <Brand>Slashfik</Brand>
-        <Mana>2</Mana>
-        <Damage>200</Damage>
+        <Mana>3</Mana>
+        <Damage>150</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>Front</Location>
@@ -1079,11 +1079,11 @@
       <Name>Aura</Name>
       <Tags>Player, Demo, Live</Tags>
       <Action>Multishot</Action>
-      <Description>Gain 280 %hg%Shield%/hg%. </Description>
+      <Description>Gain 320 %hg%Shield%/hg%. </Description>
       <Meta></Meta>
       <Rarity>1</Rarity>
       <Brand>Phalanx</Brand>
-      <Mana>3</Mana>
+      <Mana>6</Mana>
       <Damage>Zero</Damage>
       <Shots>1</Shots>
       <Tiles>1</Tiles>
@@ -1095,7 +1095,7 @@
       <CastDelay>0</CastDelay>
       <CastDuration>0.3</CastDuration>
       <DestroyOnHit>true</DestroyOnHit>
-      <OnCast amount="280">Shield</OnCast>
+      <OnCast amount="320">Shield</OnCast>
     </Spell>
       <Spell itemID="BusterMax">
       <Stats animCast="ManaBlast" animBlast="ManaBlast" castSound="laser_recharge" shotSound=""
@@ -1169,7 +1169,7 @@
         <Rarity>1</Rarity>
         <Brand>Hearth</Brand>
         <Mana>2</Mana>
-        <Damage>80</Damage>
+        <Damage>60</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1198,7 +1198,7 @@
         <Rarity>2</Rarity>
         <Brand>Hearth</Brand>
         <Mana>2</Mana>
-        <Damage>80+SpellPower*20</Damage>
+        <Damage>40+SpellPower*10</Damage>
         <Shots>3</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1254,9 +1254,9 @@
         <Action>Multishot</Action>
         <Description>10-shot atk. Knocks enemy way back. %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Hexawan</Brand>
-        <Mana>2</Mana>
+        <Mana>3</Mana>
         <Damage>15</Damage>
         <Shots>10</Shots>
         <Tiles>1</Tiles>
@@ -1313,9 +1313,9 @@
         <Action>Storm</Action>
         <Description>Rains down 3 waves of 6 thunderstrikes on random enemy tiles. </Description>
         <Meta></Meta>
-        <Rarity>0</Rarity>
+        <Rarity>1</Rarity>
         <Brand>Anima</Brand>
-        <Mana>2</Mana>
+        <Mana>3</Mana>
         <Damage>50</Damage>
         <Shots>6</Shots>
         <Tiles>1</Tiles>
@@ -1344,7 +1344,7 @@
         <Rarity>2</Rarity>
         <Brand>Anima</Brand>
         <Mana>4</Mana>
-        <Damage>50+SpellPower*10</Damage>
+        <Damage>55+SpellPower*10</Damage>
         <Shots>10</Shots>
         <Tiles>1</Tiles>
         <Location>RandOtherUnique</Location>
@@ -1370,10 +1370,10 @@
         <Tags>Player</Tags>
         <Action>Multishot</Action>
         <Meta></Meta>
-        <Rarity>0</Rarity>
+        <Rarity>1</Rarity>
         <Brand>Convergence</Brand>
         <Mana>2</Mana>
-        <Damage>25</Damage>
+        <Damage>15</Damage>
         <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
@@ -1402,10 +1402,10 @@
         <Tags>Player</Tags>
         <Action>Multishot</Action>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Convergence</Brand>
         <Mana>3</Mana>
-        <Damage>35+SpellPower*20</Damage>
+        <Damage>25+SpellPower*10</Damage>
         <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
@@ -1581,10 +1581,10 @@
         <Action>StepSlash</Action>
         <Description>Dash fwd 3 tiles and hit them. Apply %hg%Frost%/hg%. </Description>
         <Meta></Meta>
-        <Rarity>0</Rarity>
+        <Rarity>1</Rarity>
         <Brand>Anima</Brand>
         <Mana>2</Mana>
-        <Damage>150</Damage>
+        <Damage>100</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location Position="3">Front</Location>
@@ -1611,10 +1611,10 @@
         <Action>StepSlash</Action>
         <Description>Dash fwd 3 tiles and hit them. Apply %hg%Frost%/hg%. </Description>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Anima</Brand>
         <Mana>3</Mana>
-        <Damage>170+SpellPower*20</Damage>
+        <Damage>150+SpellPower*10</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location Position="3">Front</Location>
@@ -1752,7 +1752,7 @@
         <Action>Multishot</Action>
         <Description>Piercing wave attack. %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Hexawan</Brand>
         <Mana>2</Mana>
         <Damage>50+SpellPower*20</Damage>
@@ -1904,7 +1904,7 @@
         <Rarity>0</Rarity>
         <Brand>Hearth</Brand>
         <Mana>1</Mana>
-        <Damage>25</Damage>
+        <Damage>20</Damage>
         <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1928,10 +1928,10 @@
         <Action>Multishot</Action>
         <Description>Bees 5-shot attack. </Description>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Hearth</Brand>
         <Mana>2</Mana>
-        <Damage>35+SpellPower*5</Damage>
+        <Damage>30+SpellPower*5</Damage>
         <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1982,7 +1982,7 @@
         <Action>Multishot</Action>
         <Description>Send out 2 logs forward. </Description>
         <Meta></Meta>
-        <Rarity>1</Rarity>
+        <Rarity>2</Rarity>
         <Brand>Hearth</Brand>
         <Mana>2</Mana>
         <Damage>100+SpellPower*10</Damage>
@@ -2028,7 +2028,3 @@
           <OnHit amount="100">Poison</OnHit>
       </Spell>
 </Spells>
-
-
-
-
