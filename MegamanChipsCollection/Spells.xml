@@ -7,7 +7,7 @@
       <HitSelf></HitSelf>
       <HitStructures>true</HitStructures>
       <Name>WideWave3</Name>
-      <Tags>Player, Demo, Live</Tags>
+      <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
       <Action>Multishot</Action>
       <Description>Send out a wave a row wide. Can hit multiple times. Apply %hg%Frost%/hg%. </Description>
       <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
@@ -63,7 +63,7 @@
     <HitSelf></HitSelf>
     <HitStructures>true</HitStructures>
     <Name>HeatShot</Name>
-    <Tags>Player, Demo, Live, PvP</Tags>
+    <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
     <Action>Multishot</Action>
     <Description>Powerful fireball explodes on hit and damages nearby enemies. </Description>
     <Meta>Powerful fireball explodes on hit and damages nearby enemies.</Meta>
@@ -151,7 +151,7 @@
     <HitSelf></HitSelf>
     <HitStructures>true</HitStructures>
     <Name>IcySword</Name>
-    <Tags>Player</Tags>
+    <Tags>Player, PvP</Tags>
     <Action>StepSlash</Action>
     <Description>Teleport forward and Slash 1x3 tiles in front.  Apply %hg%Frost%/hg%. </Description>
     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
@@ -209,7 +209,7 @@
     <HitSelf></HitSelf>
     <HitStructures>true</HitStructures>
     <Name>FireSword</Name>
-    <Tags>Player</Tags>
+    <Tags>Player, PvP</Tags>
     <Action>StepSlash</Action>
     <Description>Teleport forward and Slash 1x3 tiles in front.  Apply %hg%Flame%/hg%. </Description>
     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
@@ -267,7 +267,7 @@
     <HitSelf></HitSelf>
     <HitStructures>true</HitStructures>
     <Name>ElecSword</Name>
-    <Tags>Player</Tags>
+    <Tags>Player, PvP</Tags>
     <Action>StepSlash</Action>
     <Description>Teleport forward and Slash 1x3 tiles in front. %hg%Root%/hg% for 2 sec. </Description>
     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
@@ -325,7 +325,7 @@
      <HitSelf></HitSelf>
      <HitStructures>true</HitStructures>
      <Name>Bushido</Name>
-     <Tags>Player</Tags>
+     <Tags>Player, PvP, SaffronBoss</Tags>
      <Action>StepSlash</Action>
      <Description>Teleport forward and Slash 1x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
      <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
@@ -363,7 +363,7 @@
      <Rarity>1</Rarity>
      <Brand>Slashfik</Brand>
      <Mana>2</Mana>
-     <Damage>200+SpellPower*20</Damage>
+     <Damage>200+SpellPower*10</Damage>
      <Shots>1</Shots>
      <Tiles>1</Tiles>
      <Location Position="3">Front</Location>
@@ -386,7 +386,7 @@
      <HitSelf></HitSelf>
      <HitStructures>true</HitStructures>
      <Name>SonicSword</Name>
-     <Tags>Player, Demo, Live</Tags>
+     <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
      <Action>Multishot</Action>
      <Description>Send out a wave a row wide. Can hit multiple times. </Description>
      <Meta>Send out a wave a row wide. Can hit multiple times.</Meta>
@@ -420,7 +420,7 @@
      <Rarity>2</Rarity>
      <Brand>Slashfik</Brand>
      <Mana>3</Mana>
-     <Damage>130+SpellPower*20</Damage>
+     <Damage>130+SpellPower*10</Damage>
      <Shots>1</Shots>
      <Tiles>1</Tiles>
      <Location>End</Location>
@@ -472,14 +472,14 @@
      <HitSelf></HitSelf>
      <HitStructures>true</HitStructures>
      <Name>BlastSwingX</Name>
-     <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
+     <Tags>Player, Demo, Live</Tags>
      <Action>MagicClaw</Action>
      <Description>Four slashes in an X 4 tiles in front, apply 2 %hg%Fragile%/hg%. </Description>
      <Meta>Four slashes in an X 4 tiles in front, apply 2 Fragile</Meta>
      <Rarity>2</Rarity>
      <Brand>Slashfik</Brand>
      <Mana>3</Mana>
-     <Damage>100+SpellPower*10</Damage>
+     <Damage>100+SpellPower*5</Damage>
      <Shots>2</Shots>
      <Tiles>1</Tiles>
      <Location>HalfField</Location>
@@ -509,7 +509,7 @@
      <Meta></Meta>
      <Rarity>4</Rarity>
      <Brand>Anima</Brand>
-     <Mana>5</Mana>
+     <Mana>7</Mana>
      <Damage>0</Damage>
      <Shots>1</Shots>
      <Tiles>1</Tiles>
@@ -686,7 +686,7 @@
        <Rarity>1</Rarity>
        <Brand>Anima</Brand>
        <Mana>2</Mana>
-       <Damage>50+SpellPower*10</Damage>
+       <Damage>50+SpellPower*5</Damage>
        <Shots>2</Shots>
        <Tiles>1</Tiles>
        <Location>End</Location>
@@ -707,7 +707,7 @@
        <HitSelf></HitSelf>
        <HitStructures>true</HitStructures>
        <Name>YoYo</Name>
-       <Tags>Player, Demo, Live, PvP</Tags>
+       <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
        <Action>Multishot</Action>
        <Description>Hits going forward and back, gain mana on hit. </Description>
        <Meta>Hits going forward and back, gain mana on hit</Meta>
@@ -739,7 +739,7 @@
        <HitSelf></HitSelf>
        <HitStructures>true</HitStructures>
        <Name>YoYo-X</Name>
-       <Tags>Player, Demo, Live, PvP</Tags>
+       <Tags>Player, Demo, Live</Tags>
        <Action>Multishot</Action>
        <Description>Hits going forward and back, gain mana on hit. </Description>
        <Meta>Hits going forward and back, gain mana on hit</Meta>
@@ -914,7 +914,7 @@
       <HitSelf>true</HitSelf>
       <HitStructures>true</HitStructures>
       <Name>Invisible</Name>
-      <Tags>Player</Tags>
+      <Tags>Player, PvP, SaffronBoss</Tags>
       <Action>Multishot</Action>
       <Description>Become Invisible for 5 seconds. </Description>
       <Meta>Become Invisible for 5 seconds</Meta>
@@ -941,7 +941,7 @@
       <HitSelf></HitSelf>
       <HitStructures>true</HitStructures>
       <Name>FireSlash</Name>
-      <Tags>Player</Tags>
+      <Tags>Player, PvP</Tags>
       <Action>Multishot</Action>
       <Description>Hit 2x3 tiles in front. Apply %hg%Flame%/hg%. </Description>
       <Meta></Meta>
@@ -969,7 +969,7 @@
       <HitSelf></HitSelf>
       <HitStructures>true</HitStructures>
       <Name>IcySlash</Name>
-      <Tags>Player</Tags>
+      <Tags>Player, PvP</Tags>
       <Action>Multishot</Action>
       <Description>Hit 2x3 tiles in front. Apply %hg%Frost%/hg%. </Description>
       <Meta></Meta>
@@ -997,7 +997,7 @@
       <HitSelf></HitSelf>
       <HitStructures>true</HitStructures>
       <Name>ElecSlash</Name>
-      <Tags>Player</Tags>
+      <Tags>Player, PvP</Tags>
       <Action>Multishot</Action>
       <Description>Hit 2x3 tiles in front. Apply %hg%Root%/hg%. </Description>
       <Meta></Meta>
@@ -1083,7 +1083,7 @@
       <Meta></Meta>
       <Rarity>1</Rarity>
       <Brand>Phalanx</Brand>
-      <Mana>6</Mana>
+      <Mana>5</Mana>
       <Damage>Zero</Damage>
       <Shots>1</Shots>
       <Tiles>1</Tiles>
@@ -1191,7 +1191,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>QueenOphiucaX</Name>
-        <Tags>Player, PvP</Tags>
+        <Tags>Player</Tags>
         <Action>Multishot</Action>
         <Description>Shot 3 Lasers. %hg%Root%/hg% for 2 sec. %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
@@ -1280,7 +1280,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>MadVulcanX</Name>
-        <Tags>Player, Demo, Live, PvP</Tags>
+        <Tags>Player, Demo, Live</Tags>
         <Action>Multishot</Action>
         <Description>15-shot atk. Knocks enemy way back. %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
@@ -1367,7 +1367,7 @@
         <HitStructures>true</HitStructures>
         <Name>HarpNote</Name>
         <Description>5 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP, SaffronBoss</Tags>
         <Action>Multishot</Action>
         <Meta></Meta>
         <Rarity>1</Rarity>
@@ -1430,7 +1430,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>SwordFighter1</Name>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP</Tags>
         <Action>StepSlash</Action>
         <Description>Teleport forward and Mad 3-slash sword attack in front. </Description>
         <Meta></Meta>
@@ -1459,7 +1459,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>SwordFighter2</Name>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP</Tags>
         <Action>StepSlash</Action>
         <Description>Teleport forward and Mad 4-slash sword attack in front. </Description>
         <Meta></Meta>
@@ -1488,7 +1488,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>SwordFighter3</Name>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP</Tags>
         <Action>StepSlash</Action>
         <Description>Teleport forward and Mad 5-slash sword attack in front. </Description>
         <Meta></Meta>
@@ -1517,7 +1517,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>SwordFighterX</Name>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP</Tags>
         <Action>StepSlash</Action>
         <Description>Teleport forward and Mad 5-slash sword attack in front. </Description>
         <Meta></Meta>
@@ -1607,7 +1607,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>JetSkiX</Name>
-        <Tags>Player, Demo, PvP</Tags>
+        <Tags>Player, Demo</Tags>
         <Action>StepSlash</Action>
         <Description>Dash fwd 3 tiles and hit them. Apply %hg%Frost%/hg%. </Description>
         <Meta></Meta>
@@ -1719,7 +1719,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>GrandWave</Name>
-        <Tags>Player, Demo, Live</Tags>
+        <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
         <Action>Multishot</Action>
         <Description>Piercing wave attack. %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
@@ -1755,7 +1755,7 @@
         <Rarity>2</Rarity>
         <Brand>Hexawan</Brand>
         <Mana>2</Mana>
-        <Damage>50+SpellPower*20</Damage>
+        <Damage>50+SpellPower*15</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1778,7 +1778,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>BreakSabre</Name>
-        <Tags>Player</Tags>
+        <Tags>Player, PvP</Tags>
         <Action>StepSlash</Action>
         <Description>Teleport forward and Hit 2x3 tiles in front. Gain %hg%Trinity%/hg%. </Description>
         <Meta></Meta>
@@ -1897,7 +1897,7 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>RiskHoney2</Name>
-        <Tags>Player, Demo, Live</Tags>
+        <Tags>Player, Demo, Live, PvP, SaffronBoss</Tags>
         <Action>Multishot</Action>
         <Description>Bees 5-shot attack. </Description>
         <Meta></Meta>
@@ -2027,4 +2027,62 @@
           <DestroyOnHit></DestroyOnHit>
           <OnHit amount="100">Poison</OnHit>
       </Spell>
+  <Spell itemID="AirHockey3">
+    <Stats animBlast="BreakerDisc" animShot="BreakerDisc" castSound="whirl_monster" shotSound="" setToGunPoint="None"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>AirHockey3</Name>
+    <Tags>Player, Demo, Live, PvP</Tags>
+    <Action>Multishot</Action>
+    <Description></Description>
+    <Meta>Bouncing disc lasts 3 seconds</Meta>
+    <Rarity>2</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>2</Mana>
+    <Damage>60</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0.1</ShotVelocity>
+    <ShotDuration>5</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <Params lerpDirection="DownForward" lerpPattern="Ricochet" lerpDelay="0" hovering="false"></Params>
+    <OnCast></OnCast>
+  </Spell>      
+  <Spell itemID="AirHockeyX">
+    <Stats animBlast="BreakerDisc" animShot="BreakerDisc" castSound="whirl_monster" shotSound="" setToGunPoint="None"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>AirHockeyX</Name>
+    <Tags>Player, Demo, Live, PvP</Tags>
+    <Action>Multishot</Action>
+    <Description></Description>
+    <Meta>Bouncing disc lasts 3 seconds</Meta>
+    <Rarity>3</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>3</Mana>
+    <Damage>60+SpellPower*10</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0.1</ShotVelocity>
+    <ShotDuration>5</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <Params lerpDirection="DownForward" lerpPattern="Ricochet" lerpDelay="0" hovering="false"></Params>
+    <OnCast></OnCast>
+  </Spell>      
 </Spells>
