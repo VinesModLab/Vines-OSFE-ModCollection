@@ -42,7 +42,7 @@
     <Weapon>CampaignGun</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
@@ -71,7 +71,7 @@
     <Weapon>UpgradeWrench</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
@@ -99,7 +99,7 @@
     <Weapon>ShisoGun</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
@@ -127,7 +127,7 @@
     <Weapon>ViGun</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.3</ManaRegen>
@@ -155,7 +155,7 @@
     <Weapon>Terraform</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
@@ -183,7 +183,7 @@
     <Weapon>SelicyFrostStep</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.4</ManaRegen>
@@ -211,7 +211,7 @@
     <Weapon>GunnerGun</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0</ManaRegen>
@@ -221,7 +221,7 @@
     <LerpTime>0.1</LerpTime>
     <Deck>HeatShot</Deck>
     <Deck>DanceFire</Deck>
-    <Deck>MadVulcan1</Deck>
+    <Deck>MadVulcan</Deck>
     <Deck>MadVulcanX</Deck>
     <Artifacts>CoverFire</Artifacts>
     <Artifacts>BlueBlood</Artifacts>
@@ -239,7 +239,7 @@
     <Weapon>CampaignReflector</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>1000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
@@ -267,7 +267,7 @@
     <Weapon>ShopkeeperGun</Weapon>
     <Health>1000</Health>
     <MaxHealth>1000</MaxHealth>
-    <Money>2000</Money>
+    <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
     <ManaRegen>0.5</ManaRegen>
