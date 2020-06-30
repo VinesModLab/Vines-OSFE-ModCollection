@@ -1134,7 +1134,7 @@
         <Name>WarriorBlood</Name>
         <Tags>Player, PvP</Tags>
         <Action>Storm</Action>
-        <Description>Apply 10 %hg%Fragile%/hg% to all beings. </Description>
+        <Description>Apply 10 %hg%Fragile%/hg% to all beings. Gives 100 Shield. </Description>
         <Meta></Meta>
         <Rarity>2</Rarity>
         <Brand>Miseri</Brand>
@@ -1152,6 +1152,7 @@
         <DestroyOnHit>false</DestroyOnHit>
         <OnCast></OnCast>
         <OnHit amount="10">Fragile</OnHit>
+        <OnCast amount="100" target="Self">Shield</OnCast>
         <OnCast>Consume</OnCast>
       </Spell>
       <Spell itemID="QueenOphiuca">
