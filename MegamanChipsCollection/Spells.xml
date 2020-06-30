@@ -2036,8 +2036,8 @@
     <Name>AirHockey3</Name>
     <Tags>Player, Demo, Live, PvP</Tags>
     <Action>Multishot</Action>
-    <Description></Description>
-    <Meta>Bouncing disc lasts 3 seconds</Meta>
+    <Description>Bouncing disc lasts 3 seconds</Description>
+    <Meta></Meta>
     <Rarity>2</Rarity>
     <Brand>Anima</Brand>
     <Mana>2</Mana>
@@ -2065,8 +2065,8 @@
     <Name>AirHockeyX</Name>
     <Tags>Player, Demo, Live, PvP</Tags>
     <Action>Multishot</Action>
-    <Description></Description>
-    <Meta>Bouncing disc lasts 3 seconds</Meta>
+    <Description>Bouncing disc lasts 3 seconds</Description>
+    <Meta></Meta>
     <Rarity>3</Rarity>
     <Brand>Anima</Brand>
     <Mana>3</Mana>
