@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="CrimsonDragon" frameDuration="140">
+  <Frame image="attacks/CrimsonDragon0.png"></Frame>
+  <Frame image="attacks/CrimsonDragon1.png"></Frame>
+  <Frame image="attacks/CrimsonDragon2.png"></Frame>
+  <Frame image="attacks/CrimsonDragon3.png"></Frame>
+  <Frame image="attacks/CrimsonDragon4.png"></Frame>
+  <Frame image="attacks/CrimsonDragon5.png"></Frame>
+</Animation>
