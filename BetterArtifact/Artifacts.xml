@@ -80,11 +80,127 @@
     <Name>Spirit Fury</Name>
     <Tags>Player, Negative, Solo</Tags>
     <App trigger="OnEquip" effect="MaxHPChange" amount="-300"></App>
-    <App trigger="OnEquip" effect="MaxMana" amount="4"></App>
+    <App trigger="OnEquip" effect="MaxMana" amount="3"></App>
     <App trigger="OnEquip" effect="SpellPower" amount="3"></App>
-    <Description>+4 Max mana, +3 SpellPower, -300 Max HP</Description>
-    <Meta>+4 Max mana, +3 SpellPower, -300 Max HP</Meta>
+    <Description>+3 Max mana, +3 SpellPower, -300 Max HP</Description>
+    <Meta>+3 Max mana, +3 SpellPower, -300 Max HP</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="SpellRemover">
+    <Name>Spell Remover</Name>
+    <Tags>Player, Negative, Solo</Tags>
+    <App trigger="OnEquip" effect="Removal" amount="30"></App>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="-100"></App>
+    <Description>Gain 30 Removal. -100 Max HP</Description>
+    <Meta>Gain 30 Removal. -100 Max HP</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="ManaHeal">
+    <Name>Mana Heal</Name>
+    <Tags>Base</Tags>
+    <App trigger="OnEquip" effect="MaxMana" amount="1"></App>
+    <App trigger="OnEquip" effect="Heal" amount="100"></App>
+    <Description></Description>
+    <Meta>+1 Max Mana, Heal 100 HP</Meta>
+    <Rarity>1</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="ManaHealLarge">
+    <Name>Mana Heal Large</Name>
+    <Tags>Base</Tags>
+    <App trigger="OnEquip" effect="MaxMana" amount="2"></App>
+    <App trigger="OnEquip" effect="Heal" amount="200"></App>
+    <Description></Description>
+    <Meta>+2 Max Mana, Heal 200 HP</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="WarrockBoost">
+    <Name>Warrock Boost</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="SpellPower" amount="2"></App>
+    <App trigger="OnEquip" effect="AtkDmg" amount="4"></App>
+    <Description>+2 SpellPower, +4 Basic Attack</Description>
+    <Meta>+2 SpellPower, +4 Basic Attack</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="BlueMoon">
+    <Name>BlueMoon</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="SpellPower" amount="6"></App>
+    <Description>+6 SpellPower</Description>
+    <Meta>+6 SpellPower</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="RedSun">
+    <Name>RedSun</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="SpellPower" amount="6"></App>
+    <Description>+6 SpellPower</Description>
+    <Meta>+6 SpellPower</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="ToolBox">
+    <Name>ToolBox</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnSummon" effect="MaxHPChangeBattle" target="LastSpawned" amount="100"></App>
+    <App trigger="OnSummon" effect="Heal" target="LastSpawned" amount="100"></App>
+    <Description></Description>
+    <Meta>Your summons start with 100 extra health</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="SoulMerge">
+    <Name>Soul Merge</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnHostageKilled" effect="SpellPower" amount="1"></App>
+    <Description></Description>
+    <Meta>Permanently gain 1 SpellPower when you kill a Hostage</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
   </Artifact>
 </Artifacts>
+
+<!--
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="GunnerMachineHoming"></App>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="-100"></App>
+    <App trigger="OnEquip" effect="MaxMana" amount="4"></App>
+    <App trigger="OnEquip" effect="ManaRegen" amount="0.1"></App>
+    <App trigger="OnEquip" effect="SpellPower" amount="3"></App>
+    <App trigger="OnEquip" effect="Heal" amount="250"></App>
+    <App trigger="AfterTakeHit" effect="DefenseBattle" amount="10" duration="1"></App>
+    <App trigger="OnSummon" effect="MaxHPChangeBattle" target="LastSpawned" amount="50"></App>
+    <App trigger="OnSummon" effect="Heal" target="LastSpawned" amount="50"></App>
+    <App trigger="OnSummon" effect="Shield" target="Self" amount="40"></App>
+    <App trigger="OnEquip" effect="Upgrader" amount="2"></App>
+    <App trigger="OnBattleStart" effect="Haste" check="HPUnder" checkAmount="MaxHP*0.5"
+      duration="Infinite"></App>
+    <App trigger="OnBattleStart" effect="SpellPowerBattle" check="HPUnder" checkAmount="MaxHP*0.5"
+      amount="3" duration="Infinite"></App>
+    <App trigger="WhileBattle" effect="DefenseBattle" amount="CurrentMana" duration="0.01"
+      triggerCooldown="0.01"></App>
+    <App trigger="OnSpellCast" effect="Mana" amount="0.1"></App>
+    <App trigger="OnLandHit" effect="CastSpell" value="HitThunder" chance="0.04"></App>
+    <App trigger="While" effect="ManaRegenBattle" target="Self" check="Fragile" duration="0.01"
+      amount="0.3" triggerCooldown="0.01"></App>
+    <App trigger="OnBattleStart" effect="Fragile" amount="1"></App>
+    <App trigger="OnSpellCast" effect="Shield" target="Self" amount="3"></App>
+    <App trigger="OnBattleStart" effect="Shield" amount="40"></App>
+    <App trigger="WhileManaBelow" effect="ManaRegenBattle" amount="1" duration="0.01"
+      triggerCooldown="0.01" triggerAmount="1"></App>
+    <App trigger="OnEquip" effect="Removal" amount="2"></App>
+    <App trigger="OnEquip" effect="Defense" amount="-4"></App>
+    <App trigger="OnEnemyKill" effect="Mana" amount="3"></App>
+    <App trigger="OnMove" effect="Shield" amount="1"></App>
+    <App trigger="OnBattleStart" target="Self" effect="Invincible" duration="7"></App>
+    <App trigger="OnEquip" effect="Luck" amount="20"></App>
+    <App trigger="OnTileBreak" effect="Shield" target="Self" amount="10"></App>
+    <App trigger="OnBattleStart" effect="Heal" amount="CurrentCardtridges"></App>
+    <App trigger="OnHostageSaved" effect="MaxHPChange" amount="50"></App>
+    <App trigger="OnHostageSaved" effect="Heal" amount="50"></App>
+-->

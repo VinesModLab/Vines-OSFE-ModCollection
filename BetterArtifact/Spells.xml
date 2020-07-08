@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spells>
+  <Spell itemID="SelicyStep">
+    <Stats animBlast="Slash1x1Blue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" yVariance="14" slashLocation="1" hitboxOffsetX="-0.5" hitboxWidth="2"
+      recoveryTime="0.5" cooldown="0.8"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>Fairfrozen</Name>
+    <Tags>Weapon</Tags>
+    <Action>StepSlash</Action>
+    <Description></Description>
+    <Meta>Dash fwd quickly and hit 4 tiles away. Hold for close range</Meta>
+    <Mana>0</Mana>
+    <Damage>10</Damage>
+    <Shots>4</Shots>
+    <Tiles>1</Tiles>
+    <Location Position="3">Front</Location>
+    <TimeBetweenShots>0.05</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <BlastDuration>0.28</BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+  </Spell>
+</Spells>

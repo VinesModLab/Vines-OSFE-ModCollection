@@ -1863,7 +1863,7 @@
         <TouchTile>Flame</TouchTile>
       </Spell>
       <Spell itemID="BlastMan">
-        <Stats animWarning="WarningDangerC" animCast="FireCharge" animShot="Firebolt" castSound="foom"
+        <Stats animWarning="WarningDangerC" animCast="FireCharge" animShot="HeatShot" castSound="foom"
           shotSound="" setToGunPoint="Vertical"></Stats>
         <HitAllies></HitAllies>
         <HitEnemies>true</HitEnemies>
@@ -2087,7 +2087,7 @@
     <OnCast></OnCast>
   </Spell>     
       <Spell itemID="CrmsnMteor">
-        <Stats animWarning="" animCast="" animShot="CrimsonDragon" castSound="foom"
+        <Stats animWarning="" animCast="FireCharge" animShot="CrimsonDragon" castSound=""
           shotSound="" setToGunPoint="Vertical"></Stats>
         <HitAllies></HitAllies>
         <HitEnemies>true</HitEnemies>
@@ -2101,12 +2101,12 @@
         <Rarity>4</Rarity>
         <Brand>Anima</Brand>
         <Mana>7</Mana>
-        <Damage>300</Damage>
+        <Damage>350</Damage>
         <Shots>7</Shots>
         <Tiles>4</Tiles>
         <Location>RandAlliedUnique</Location>
         <TimeBetweenShots>0.15</TimeBetweenShots>
-        <ShotVelocity>950</ShotVelocity>
+        <ShotVelocity>850</ShotVelocity>
         <ShotDuration>1</ShotDuration>
         <ShotDelay></ShotDelay>
         <CastDelay>0.4</CastDelay>
