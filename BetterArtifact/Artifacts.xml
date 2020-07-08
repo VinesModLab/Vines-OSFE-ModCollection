@@ -99,7 +99,7 @@
   </Artifact>
   <Artifact itemID="ManaHeal">
     <Name>Mana Ball</Name>
-    <Tags>Base</Tags>
+    <Tags>Player</Tags>
     <App trigger="OnEquip" effect="MaxMana" amount="1"></App>
     <App trigger="OnEquip" effect="Heal" amount="100"></App>
     <App trigger="OnEquip" effect="MaxHPChange" amount="50"></App>
@@ -110,7 +110,7 @@
   </Artifact>
   <Artifact itemID="ManaHealLarge">
     <Name>Mana Crystal</Name>
-    <Tags>Base</Tags>
+    <Tags>Player</Tags>
     <App trigger="OnEquip" effect="MaxMana" amount="2"></App>
     <App trigger="OnEquip" effect="Heal" amount="200"></App>
     <App trigger="OnEquip" effect="MaxHPChange" amount="100"></App>
