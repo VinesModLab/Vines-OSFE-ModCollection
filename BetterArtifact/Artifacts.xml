@@ -152,7 +152,7 @@
     <Tags>Player, Solo</Tags>
     <App trigger="OnSummon" effect="MaxHPChangeBattle" target="LastSpawned" amount="100"></App>
     <App trigger="OnSummon" effect="Heal" target="LastSpawned" amount="100"></App>
-    <Description></Description>
+    <Description>Your summons start with 100 extra health</Description>
     <Meta>Your summons start with 100 extra health</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
@@ -161,7 +161,7 @@
     <Name>Soul Merge</Name>
     <Tags>Player, Solo</Tags>
     <App trigger="OnHostageKilled" effect="SpellPower" amount="1"></App>
-    <Description></Description>
+    <Description>Permanently gain 1 SpellPower when you kill a Hostage</Description>
     <Meta>Permanently gain 1 SpellPower when you kill a Hostage</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
@@ -170,7 +170,7 @@
     <Name>HP Ball</Name>
     <Tags>Player, Solo</Tags>
     <App trigger="OnEquip" effect="MaxHPChange" amount="150"></App>
-    <Description></Description>
+    <Description>+150 MaxHP</Description>
     <Meta>+150 MaxHP</Meta>
     <Rarity>1</Rarity>
     <Params></Params>

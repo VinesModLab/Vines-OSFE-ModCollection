@@ -42,7 +42,7 @@
     <Rarity>2</Rarity>
     <Brand>Anima</Brand>
     <Mana>3</Mana>
-    <Damage>25+SpellPower*5</Damage>
+    <Damage>25+SpellPower*10</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>End</Location>
@@ -99,7 +99,7 @@
     <Rarity>2</Rarity>
     <Brand>Anima</Brand>
     <Mana>2</Mana>
-    <Damage>50+SpellPower*10</Damage>
+    <Damage>50+SpellPower*15</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>End</Location>
@@ -158,7 +158,7 @@
     <Rarity>0</Rarity>
     <Brand>Slashfik</Brand>
     <Mana>2</Mana>
-    <Damage>40+SpellPower*10</Damage>
+    <Damage>40+SpellPower*15</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location Position="3">Front</Location>
@@ -216,7 +216,7 @@
     <Rarity>0</Rarity>
     <Brand>Slashfik</Brand>
     <Mana>2</Mana>
-    <Damage>40+SpellPower*10</Damage>
+    <Damage>40+SpellPower*15</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location Position="3">Front</Location>
@@ -274,7 +274,7 @@
     <Rarity>0</Rarity>
     <Brand>Slashfik</Brand>
     <Mana>2</Mana>
-    <Damage>50+SpellPower*10</Damage>
+    <Damage>50+SpellPower*15</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location Position="3">Front</Location>
@@ -363,7 +363,7 @@
      <Rarity>1</Rarity>
      <Brand>Slashfik</Brand>
      <Mana>2</Mana>
-     <Damage>200+SpellPower*10</Damage>
+     <Damage>200+SpellPower*20</Damage>
      <Shots>1</Shots>
      <Tiles>1</Tiles>
      <Location Position="3">Front</Location>
@@ -1199,7 +1199,7 @@
         <Rarity>2</Rarity>
         <Brand>Hearth</Brand>
         <Mana>2</Mana>
-        <Damage>40+SpellPower*10</Damage>
+        <Damage>40+SpellPower*5</Damage>
         <Shots>3</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
@@ -1345,7 +1345,7 @@
         <Rarity>2</Rarity>
         <Brand>Anima</Brand>
         <Mana>4</Mana>
-        <Damage>55+SpellPower*10</Damage>
+        <Damage>55+SpellPower*5</Damage>
         <Shots>10</Shots>
         <Tiles>1</Tiles>
         <Location>RandOtherUnique</Location>
@@ -1367,15 +1367,15 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>HarpNote</Name>
-        <Description>5 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
+        <Description>3 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
         <Tags>Player, PvP, SaffronBoss</Tags>
         <Action>Multishot</Action>
         <Meta></Meta>
         <Rarity>1</Rarity>
         <Brand>Convergence</Brand>
         <Mana>2</Mana>
-        <Damage>15</Damage>
-        <Shots>5</Shots>
+        <Damage>45</Damage>
+        <Shots>3</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
         <TimeBetweenShots>0.2</TimeBetweenShots>
@@ -1399,15 +1399,15 @@
         <HitSelf></HitSelf>
         <HitStructures>true</HitStructures>
         <Name>HarpNoteX</Name>
-        <Description>5 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
+        <Description>3 Note Shoot that applies %hg%Fragile%/hg%. Gain %hg%Trinity%/hg%. </Description>
         <Tags>Player</Tags>
         <Action>Multishot</Action>
         <Meta></Meta>
         <Rarity>2</Rarity>
         <Brand>Convergence</Brand>
         <Mana>3</Mana>
-        <Damage>25+SpellPower*10</Damage>
-        <Shots>5</Shots>
+        <Damage>45+SpellPower*5</Damage>
+        <Shots>3</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
         <TimeBetweenShots>0.2</TimeBetweenShots>
