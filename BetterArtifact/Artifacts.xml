@@ -98,21 +98,23 @@
     <Params></Params>
   </Artifact>
   <Artifact itemID="ManaHeal">
-    <Name>Mana Heal</Name>
+    <Name>Mana Ball</Name>
     <Tags>Base</Tags>
     <App trigger="OnEquip" effect="MaxMana" amount="1"></App>
     <App trigger="OnEquip" effect="Heal" amount="100"></App>
-    <Description></Description>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="50"></App>
+    <Description>+1 Max Mana, Heal 100 HP, +50 MaxHP</Description>
     <Meta>+1 Max Mana, Heal 100 HP</Meta>
     <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
   <Artifact itemID="ManaHealLarge">
-    <Name>Mana Heal Large</Name>
+    <Name>Mana Crystal</Name>
     <Tags>Base</Tags>
     <App trigger="OnEquip" effect="MaxMana" amount="2"></App>
     <App trigger="OnEquip" effect="Heal" amount="200"></App>
-    <Description></Description>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="100"></App>
+    <Description>+2 Max Mana, Heal 200 HP, +100 MaxHP</Description>
     <Meta>+2 Max Mana, Heal 200 HP</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
@@ -162,6 +164,15 @@
     <Description></Description>
     <Meta>Permanently gain 1 SpellPower when you kill a Hostage</Meta>
     <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="HPBall">
+    <Name>HP Ball</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="150"></App>
+    <Description></Description>
+    <Meta>+150 MaxHP</Meta>
+    <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
 </Artifacts>
