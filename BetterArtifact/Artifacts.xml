@@ -175,7 +175,7 @@
     <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
-  <Artifact itemID="Navi+20">
+  <Artifact itemID="Navi20">
     <Name>Navi+20</Name>
     <Tags>Player, Solo</Tags>
     <App trigger="OnEquip" effect="SpellPower" amount="2"></App>
