@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="ArmGrandWave" frameDuration="140">
+  <Frame image="attacks/GrandWave0.png"></Frame>
+  <Frame image="attacks/GrandWave1.png"></Frame>
+  <Frame image="attacks/GrandWave2.png"></Frame>
+  <Frame image="attacks/GrandWave3.png"></Frame>
+  <Frame image="attacks/GrandWave4.png"></Frame>
+</Animation>

@@ -22,45 +22,8 @@
     <Deck>MatKunais</Deck>
     <Deck>PoisonDart</Deck>
     <Deck>Detox</Deck>
-    <Artifacts>JamToKun</Artifacts>
+    <Artifacts>ZPower</Artifacts>
 	<Artifacts>NinjaBlood</Artifacts>
-    <Artifacts>NinjaLife</Artifacts>
-    <Artifacts>NinjaLongSleeves</Artifacts>
-    <Artifacts>NinjaSystem</Artifacts>
-    <Artifacts>ToxicSpecialist</Artifacts>
-    <Artifacts>TimePierce</Artifacts>
-    <Stats localGunPointPos="33,34" animName="Saffron"
-      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
-      startingBrands="None,None"></Stats>
-   </Being>
-  <Being beingID="GodSaffronNinja">
-    <Name>Saffron</Name>
-    <Title>God Ninja</Title>
-    <Tags>Campaign, Unlock</Tags>
-    <Description>A military scientist, she's adept with all types of spells.</Description>
-    <Flavor>Test for Ninja Artifacts</Flavor>
-    <Weapon>CampaignGun</Weapon>
-    <Health>9000</Health>
-    <MaxHealth>9000</MaxHealth>
-    <Money>9990</Money>
-    <MaxMana>15</MaxMana>
-    <BasicCooldown>0.1</BasicCooldown>
-    <ManaRegen>1</ManaRegen>
-    <ShuffleTime>2.5</ShuffleTime>
-    <GracePeriod>0.03</GracePeriod>
-    <Defense>0</Defense>
-    <LerpTime>0.1</LerpTime>
-    <Deck>KunaiCatch</Deck>
-    <Deck>MatKunais</Deck>
-    <Deck>MatKunais</Deck>
-    <Deck>PoisonDart</Deck>
-    <Deck>Detox</Deck>
-    <Deck>StormSword</Deck>
-    <Deck>Ragnarok</Deck>
-    <Artifacts>SubTank</Artifacts>
-    <Artifacts>Wings</Artifacts>
-    <Artifacts>JamToKun</Artifacts>
-    <Artifacts>NinjaBlood</Artifacts>
     <Artifacts>NinjaLife</Artifacts>
     <Artifacts>NinjaLongSleeves</Artifacts>
     <Artifacts>NinjaSystem</Artifacts>
@@ -92,44 +55,6 @@
     <Deck>MatKunais</Deck>
     <Deck>PoisonDart</Deck>
     <Deck>Detox</Deck>
-    <Artifacts>JamToKun</Artifacts>
-    <Artifacts>NinjaBlood</Artifacts>
-    <Artifacts>NinjaLife</Artifacts>
-    <Artifacts>NinjaLongSleeves</Artifacts>
-    <Artifacts>NinjaSystem</Artifacts>
-    <Artifacts>ToxicSpecialist</Artifacts>
-    <Artifacts>TimePierce</Artifacts>
-    <Stats localGunPointPos="30,26" animName="Selicy" altAnims="SelicyCatgirl"
-      splashSprite="SelicySplash" startingBrands="None,None"></Stats>
-  </Being>
-  <Being beingID="GodSelicyNinja">
-    <Name>Selicy</Name>
-    <Title>God Ninja</Title>
-    <Tags>Campaign, Selicy, Attack</Tags>
-    <Description>Over your cold, dead body.</Description>
-    <Flavor>Test for Ninja Artifacts</Flavor>
-    <Weapon>SelicyFrostStep</Weapon>
-    <Health>9000</Health>
-    <MaxHealth>9000</MaxHealth>
-    <Money>9990</Money>
-    <MaxMana>15</MaxMana>
-    <BasicCooldown>0.1</BasicCooldown>
-    <ManaRegen>0.4</ManaRegen>
-    <ShuffleTime>2.5</ShuffleTime>
-    <GracePeriod>0.03</GracePeriod>
-    <Defense>0</Defense>
-    <LerpTime>0.1</LerpTime>
-    <Deck>KunaiCatch</Deck>
-    <Deck>MatKunais</Deck>
-    <Deck>MatKunais</Deck>
-    <Deck>PoisonDart</Deck>
-    <Deck>Detox</Deck>
-    <Deck>IceNeedle</Deck>
-    <Deck>ColdMedicine</Deck>
-    <Deck>FateShield</Deck>
-    <Deck>Zenith</Deck>
-    <Artifacts>Bulwark</Artifacts>
-    <Artifacts>Wings</Artifacts>
     <Artifacts>JamToKun</Artifacts>
     <Artifacts>NinjaBlood</Artifacts>
     <Artifacts>NinjaLife</Artifacts>

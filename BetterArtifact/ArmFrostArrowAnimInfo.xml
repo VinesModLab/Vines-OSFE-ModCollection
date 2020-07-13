@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="ArmFrostArrow" frameDuration="140">
+  <Frame image="attacks/FrostArrow.png"></Frame>
+  <Frame image="attacks/FrostArrow.png"></Frame>
+  <Frame image="attacks/FrostArrow.png"></Frame>
+  <Frame image="attacks/FrostArrow.png"></Frame>
+  <Frame image="attacks/FrostArrow.png"></Frame>
+</Animation>

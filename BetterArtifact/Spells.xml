@@ -1,29 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spells>
-  <Spell itemID="SelicyStep">
-    <Stats animBlast="Slash1x1Blue" animShot="" castSound="woosh_large" shotSound="slice_clang"
-      setToGunPoint="None" yVariance="14" slashLocation="1" hitboxOffsetX="-0.5" hitboxWidth="2"
-      recoveryTime="0.5" cooldown="0.8"></Stats>
+  <Spell itemID="ArmZSword">
+    <Stats animBlast="SwordHitZ" animShot="" castSound="woosh_large" shotSound="slice_clang"
+      setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" hitboxOffsetX="0.5"
+      recoveryTime="0.3"></Stats>
     <HitAllies></HitAllies>
     <HitEnemies>true</HitEnemies>
     <HitSelf></HitSelf>
     <HitStructures>true</HitStructures>
-    <Name>Fairfrozen</Name>
+    <Name>Zero's Sword</Name>
     <Tags>Weapon</Tags>
-    <Action>StepSlash</Action>
-    <Description></Description>
-    <Meta>Dash fwd quickly and hit 4 tiles away. Hold for close range</Meta>
-    <Mana>0</Mana>
-    <Damage>10</Damage>
-    <Shots>4</Shots>
+    <Action>Multishot</Action>
+    <Description>Slash 2x3 spaces in front of you.</Description>
+    <Meta></Meta>
+    <Flavor></Flavor>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+    <Mana>1</Mana>
+    <Damage>100</Damage>
+    <Shots>1</Shots>
     <Tiles>1</Tiles>
-    <Location Position="3">Front</Location>
-    <TimeBetweenShots>0.05</TimeBetweenShots>
+    <Location Position="1">Front</Location>
+    <TimeBetweenShots>0.02</TimeBetweenShots>
     <ShotVelocity>0</ShotVelocity>
     <ShotDuration>0.2</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
-    <BlastDuration>0.28</BlastDuration>
+    <BlastDuration>0.25</BlastDuration>
     <DestroyOnHit></DestroyOnHit>
   </Spell>
+      <Spell itemID="ArmGrandWave">
+        <Stats animCast="" animShot="ArmGrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>GrandWave</Name>
+        <Tags>Weapon</Tags>
+        <Action>Multishot</Action>
+        <Description>Piercing wave attack.</Description>
+        <Meta></Meta>
+        <Rarity>0</Rarity>
+        <Brand>Hexawan</Brand>
+        <Mana>1</Mana>
+        <Damage>50</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>4</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnHit amount="1" duration="0">Move</OnHit>
+      </Spell> 
+     <Spell itemID="ArmFrostArrow">
+       <Stats animCast="" animShot="ArmFrostArrow" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+       <HitAllies></HitAllies>
+       <HitEnemies>true</HitEnemies>
+       <HitSelf></HitSelf>
+       <HitStructures>true</HitStructures>
+       <Name>FrostArrow</Name>
+       <Tags>Weapon</Tags>
+       <Action>Multishot</Action>
+       <Description>Hits enemy with FrostArrow. 33% Frost Chance. </Description>
+       <Meta></Meta>
+       <Rarity>1</Rarity>
+       <Brand>Anima</Brand>
+       <Mana>0</Mana>
+       <Damage>25</Damage>
+       <Shots>3</Shots>
+       <Tiles>1</Tiles>
+       <Location>End</Location>
+       <TimeBetweenShots>0.15</TimeBetweenShots>
+       <ShotVelocity>600</ShotVelocity>
+       <ShotDuration>2</ShotDuration>
+       <ShotDelay></ShotDelay>
+       <CastDelay>0.15</CastDelay>
+       <CastDuration>0.15</CastDuration>
+       <DestroyOnHit>true</DestroyOnHit>
+       <OnHit chance="0.33">Frost</OnHit>
+       <OnCast>Anchor</OnCast>
+     </Spell>       
 </Spells>

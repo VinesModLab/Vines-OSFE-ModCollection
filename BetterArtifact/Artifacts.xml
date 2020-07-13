@@ -185,6 +185,52 @@
     <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
+  <Artifact itemID="ZPower">
+    <Name>ZPower</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmZSword"></App>
+    <Description>Change Weapon to Zero's Sword</Description>
+    <Meta>Change Weapon to Zero's Sword</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="GrandWaveArm">
+    <Name>GrandWaveArm</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmGrandWave"></App>
+    <Description>Change Weapon to GrandWave</Description>
+    <Meta>Change Weapon to GrandWave</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="FrostArrowArm">
+    <Name>ArrowArm</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmFrostArrow"></App>
+    <Description>Change Weapon to FrostArrow</Description>
+    <Meta>Change Weapon to FrostArrow</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>  
+  <Artifact itemID="Muramasa">
+    <Name>Muramasa</Name>
+    <Tags>Player, Negative, Solo</Tags>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="-500"></App>
+    <App trigger="OnEquip" effect="AtkDmg" amount="100"></App>
+    <Description>-500 MaxHP, +100 Basic Attack Damage</Description>
+    <Meta>-500 MaxHP, +100 Basic Attack Damage</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="Uninstall">
+    <Name>Uninstall</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="Removal" amount="5"></App>
+    <Description>Gain 5 Removals.</Description>
+    <Meta>Gain 5 Removals.</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
 </Artifacts>
 
 <!--
