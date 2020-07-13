@@ -699,7 +699,7 @@
        <DestroyOnHit>true</DestroyOnHit>
        <OnHit value="RingOfFire" target="Self">CastSpell</OnHit>
      </Spell>
-     <Spell itemID="Yoyo">
+     <Spell itemID="YoyoV">
        <Stats animCast="FrostboltCharge" animShot="Yoyo" castSound="wiffle_buzz_fade" shotSound=""
          setToGunPoint="Both"></Stats>
        <HitAllies></HitAllies>

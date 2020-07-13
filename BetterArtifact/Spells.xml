@@ -3,7 +3,7 @@
   <Spell itemID="ArmZSword">
     <Stats animBlast="SwordHitZ" animShot="" castSound="woosh_large" shotSound="slice_clang"
       setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" hitboxOffsetX="0.5"
-      recoveryTime="0.3"></Stats>
+      recoveryTime="0.3" cooldown="1"></Stats>
     <HitAllies></HitAllies>
     <HitEnemies>true</HitEnemies>
     <HitSelf></HitSelf>
@@ -30,7 +30,7 @@
     <DestroyOnHit></DestroyOnHit>
   </Spell>
       <Spell itemID="ArmGrandWave">
-        <Stats animCast="" animShot="ArmGrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+        <Stats animCast="" animShot="ArmGrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.8"></Stats>
         <HitAllies></HitAllies>
         <HitEnemies>true</HitEnemies>
         <HitSelf></HitSelf>
@@ -57,7 +57,7 @@
         <OnHit amount="1" duration="0">Move</OnHit>
       </Spell> 
      <Spell itemID="ArmFrostArrow">
-       <Stats animCast="" animShot="ArmFrostArrow" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1"></Stats>
+       <Stats animCast="" animShot="ArmFrostArrow" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.8"></Stats>
        <HitAllies></HitAllies>
        <HitEnemies>true</HitEnemies>
        <HitSelf></HitSelf>
