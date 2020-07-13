@@ -212,7 +212,7 @@
     <Rarity>2</Rarity>
     <Params></Params>
   </Artifact>  
-  <Artifact itemID="Muramasa">
+  <Artifact itemID="MuramasaArt">
     <Name>Muramasa</Name>
     <Tags>Player, Negative, Solo</Tags>
     <App trigger="OnEquip" effect="MaxHPChange" amount="-500"></App>

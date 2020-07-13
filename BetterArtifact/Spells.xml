@@ -21,7 +21,7 @@
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location Position="1">Front</Location>
-    <TimeBetweenShots>0.02</TimeBetweenShots>
+    <TimeBetweenShots>0.5</TimeBetweenShots>
     <ShotVelocity>0</ShotVelocity>
     <ShotDuration>0.2</ShotDuration>
     <ShotDelay></ShotDelay>
@@ -47,7 +47,7 @@
         <Shots>1</Shots>
         <Tiles>1</Tiles>
         <Location>End</Location>
-        <TimeBetweenShots>0</TimeBetweenShots>
+        <TimeBetweenShots>0.5</TimeBetweenShots>
         <ShotVelocity>300</ShotVelocity>
         <ShotDuration>4</ShotDuration>
         <ShotDelay></ShotDelay>
@@ -74,7 +74,7 @@
        <Shots>3</Shots>
        <Tiles>1</Tiles>
        <Location>End</Location>
-       <TimeBetweenShots>0.15</TimeBetweenShots>
+       <TimeBetweenShots>0.5</TimeBetweenShots>
        <ShotVelocity>600</ShotVelocity>
        <ShotDuration>2</ShotDuration>
        <ShotDelay></ShotDelay>
