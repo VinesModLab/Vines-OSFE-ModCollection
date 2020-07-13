@@ -2001,7 +2001,7 @@
       </Spell>
       <Spell itemID="PoisonSword">
           <Stats animBlast="AxeHitD" animShot="AxeHitD" castSound="woosh_large" shotSound="slice_clang"
-            setToGunPoint="None" slashLocation="1" hitboxWidth="3" hitboxHeight="3" hitboxOffsestX="1"
+            setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" spawnOffsetX="1" hitboxOffsetX="0.5"
             recoveryTime="0.3"></Stats>
           <HitAllies></HitAllies>
           <HitEnemies>true</HitEnemies>
@@ -2010,7 +2010,7 @@
           <Name>Poison Sword</Name>
           <Tags>Player, PvP, Live</Tags>
           <Action>Multishot</Action>
-          <Description>Hit 3x3 tiles in front. Apply 100 %hg%Poison%/hg%. </Description>
+          <Description>Hit 2x3 tiles in front. Apply 100 %hg%Poison%/hg%. </Description>
           <Meta></Meta>
           <Rarity>2</Rarity>
           <Brand>Slashfik</Brand>
@@ -2115,4 +2115,56 @@
         <OnCast></OnCast>
         <OnHit>Flame</OnHit>
       </Spell>  
+     <Spell itemID="Atk+10">
+     <Stats animShot="" castSound="zap_fast" shotSound="" setToGunPoint="None"></Stats>
+     <HitAllies></HitAllies>
+     <HitSelf>true</HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>Atk+10</Name>
+     <Tags>Player, Demo, Live</Tags>
+     <Action>Multishot</Action>
+     <Description>+1 %hg%SpellPower%/hg%. </Description>
+     <Meta></Meta>
+     <Rarity>0</Rarity>
+     <Brand>Convergence</Brand>
+     <Mana>0</Mana>
+     <Damage>Zero</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location>Current</Location>
+     <TimeBetweenShots>0</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <DestroyOnHit>true</DestroyOnHit>
+     <OnCast amount="1" duration="Infinite" target="Self">SpellPowerBattle</OnCast>
+     <OnCast>Consume</OnCast>
+   </Spell>    
+     <Spell itemID="Atk+30">
+     <Stats animShot="" castSound="zap_fast" shotSound="" setToGunPoint="None"></Stats>
+     <HitAllies></HitAllies>
+     <HitSelf>true</HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>Atk+30</Name>
+     <Tags>Player, Demo, Live</Tags>
+     <Action>Multishot</Action>
+     <Description>+3 %hg%SpellPower%/hg%. </Description>
+     <Meta></Meta>
+     <Rarity>1</Rarity>
+     <Brand>Convergence</Brand>
+     <Mana>2</Mana>
+     <Damage>Zero</Damage>
+     <Shots>1</Shots>
+     <Tiles>1</Tiles>
+     <Location>Current</Location>
+     <TimeBetweenShots>0</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <DestroyOnHit>true</DestroyOnHit>
+     <OnCast amount="3" duration="Infinite" target="Self">SpellPowerBattle</OnCast>
+     <OnCast>Consume</OnCast>
+   </Spell>   
 </Spells>

@@ -175,6 +175,16 @@
     <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
+  <Artifact itemID="Navi+20">
+    <Name>Navi+20</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="SpellPower" amount="2"></App>
+    <App trigger="OnEquip" effect="AtkDmg" amount="2"></App>
+    <Description>+2 SpellPower, +2 Basic Attack</Description>
+    <Meta>+2 SpellPower, +2 Basic Attack</Meta>
+    <Rarity>1</Rarity>
+    <Params></Params>
+  </Artifact>
 </Artifacts>
 
 <!--
