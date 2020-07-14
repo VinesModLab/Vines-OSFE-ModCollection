@@ -3,7 +3,7 @@
   <Spell itemID="ArmZSword">
     <Stats animBlast="SwordHitZ" animShot="" castSound="woosh_large" shotSound="slice_clang"
       setToGunPoint="None" slashLocation="1" hitboxWidth="2" hitboxHeight="3" hitboxOffsetX="0.5"
-      recoveryTime="0.3" cooldown="1"></Stats>
+      recoveryTime="0.3" cooldown="0.8"></Stats>
     <HitAllies></HitAllies>
     <HitEnemies>true</HitEnemies>
     <HitSelf></HitSelf>
@@ -16,7 +16,7 @@
     <Flavor></Flavor>
     <Rarity>1</Rarity>
     <Brand></Brand>
-    <Mana>1</Mana>
+    <Mana>0</Mana>
     <Damage>100</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
@@ -30,7 +30,7 @@
     <DestroyOnHit></DestroyOnHit>
   </Spell>
       <Spell itemID="ArmGrandWave">
-        <Stats animCast="" animShot="ArmGrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.8"></Stats>
+        <Stats animCast="" animShot="ArmGrandWave" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.65"></Stats>
         <HitAllies></HitAllies>
         <HitEnemies>true</HitEnemies>
         <HitSelf></HitSelf>
@@ -42,7 +42,7 @@
         <Meta></Meta>
         <Rarity>0</Rarity>
         <Brand>Hexawan</Brand>
-        <Mana>1</Mana>
+        <Mana>0</Mana>
         <Damage>50</Damage>
         <Shots>1</Shots>
         <Tiles>1</Tiles>
@@ -57,7 +57,7 @@
         <OnHit amount="1" duration="0">Move</OnHit>
       </Spell> 
      <Spell itemID="ArmFrostArrow">
-       <Stats animCast="" animShot="ArmFrostArrow" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.8"></Stats>
+       <Stats animCast="" animShot="ArmFrostArrow" introSound="ice_beam" shotSound="" setToGunPoint="Both" hitboxHeight="1" cooldown="0.65"></Stats>
        <HitAllies></HitAllies>
        <HitEnemies>true</HitEnemies>
        <HitSelf></HitSelf>
@@ -74,7 +74,7 @@
        <Shots>3</Shots>
        <Tiles>1</Tiles>
        <Location>End</Location>
-       <TimeBetweenShots>0.5</TimeBetweenShots>
+       <TimeBetweenShots>0.25</TimeBetweenShots>
        <ShotVelocity>600</ShotVelocity>
        <ShotDuration>2</ShotDuration>
        <ShotDelay></ShotDelay>
@@ -83,5 +83,93 @@
        <DestroyOnHit>true</DestroyOnHit>
        <OnHit chance="0.33">Frost</OnHit>
        <OnCast>Anchor</OnCast>
-     </Spell>       
+     </Spell>   
+      <Spell itemID="ArmHarpNote">
+        <Stats animBlast="MusicMeasureShot" animShot="MusicMeasureShot" shotSound="violin_shot_01"
+          setToGunPoint="Both" cooldown="0.65"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>HarpNote</Name>
+        <Description>3 Note Shoot that applies %hg%Fragile%/hg%.</Description>
+        <Tags>Weapon</Tags>
+        <Action>Multishot</Action>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Convergence</Brand>
+        <Mana>0</Mana>
+        <Damage>35</Damage>
+        <Shots>3</Shots>
+        <Tiles>1</Tiles>
+        <Location>Current</Location>
+        <TimeBetweenShots>0.25</TimeBetweenShots>
+        <ShotVelocity>500</ShotVelocity>
+        <ShotDuration>1</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <CastDuration></CastDuration>
+        <BlastDuration></BlastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnCast></OnCast>
+        <OnHit amount="1" target="Hit">Fragile</OnHit>
+      </Spell>    
+  <Spell itemID="ArmAirHockey">
+    <Stats animBlast="BreakerDisc" animShot="BreakerDisc" castSound="whirl_monster" shotSound="" setToGunPoint="None" cooldown="1"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf></HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>AirHockey</Name>
+    <Tags>Weapon</Tags>
+    <Action>Multishot</Action>
+    <Description>Bouncing disc lasts 3 seconds</Description>
+    <Meta></Meta>
+    <Rarity>1</Rarity>
+    <Brand>Anima</Brand>
+    <Mana>1</Mana>
+    <Damage>40</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Front</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0.1</ShotVelocity>
+    <ShotDuration>5</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <CastDuration></CastDuration>
+    <BlastDuration></BlastDuration>
+    <DestroyOnHit></DestroyOnHit>
+    <Params lerpDirection="DownForward" lerpPattern="Ricochet" lerpDelay="0" hovering="false"></Params>
+    <OnCast></OnCast>
+  </Spell>\
+      <Spell itemID="ArmSwordFighter">
+        <Stats animBlast="SwordFighterHit" animShot="" castSound="woosh_large" shotSound="slice_clang"
+          setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.8"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>SwordFighter</Name>
+        <Tags>Weapon</Tags>
+        <Action>StepSlash</Action>
+        <Description>Teleport forward and Mad 3-slash sword attack in front. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Slashfik</Brand>
+        <Mana>0</Mana>
+        <Damage>50</Damage>
+        <Shots>3</Shots>
+        <Tiles>1</Tiles>
+        <Location Position="3">Front</Location>
+        <TimeBetweenShots>0.1</TimeBetweenShots>
+        <ShotVelocity>0</ShotVelocity>
+        <ShotDuration>0.25</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0</CastDelay>
+        <BlastDuration>0.5</BlastDuration>
+        <DestroyOnHit></DestroyOnHit>
+        <OnCast>Anchor</OnCast>
+        <OnCast></OnCast>
+      </Spell>         
 </Spells>

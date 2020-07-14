@@ -195,7 +195,7 @@
     <Params></Params>
   </Artifact>
   <Artifact itemID="GrandWaveArm">
-    <Name>GrandWaveArm</Name>
+    <Name>GrandWave Arm</Name>
     <Tags>Player, Solo</Tags>
     <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmGrandWave"></App>
     <Description>Change Weapon to GrandWave</Description>
@@ -204,7 +204,7 @@
     <Params></Params>
   </Artifact>
   <Artifact itemID="FrostArrowArm">
-    <Name>ArrowArm</Name>
+    <Name>Arrow Arm</Name>
     <Tags>Player, Solo</Tags>
     <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmFrostArrow"></App>
     <Description>Change Weapon to FrostArrow</Description>
@@ -212,13 +212,40 @@
     <Rarity>2</Rarity>
     <Params></Params>
   </Artifact>  
+  <Artifact itemID="HarpNoteArm">
+    <Name>HarpNote Arm</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmHarpNote"></App>
+    <Description>Change Weapon to HarpNote</Description>
+    <Meta>Change Weapon to HarpNote</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>    
+  <Artifact itemID="SwordFighterArm">
+    <Name>SwordFighter Arm</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmSwordFighter"></App>
+    <Description>Change Weapon to SwordFighter</Description>
+    <Meta>Change Weapon to SwordFighter</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact> 
+  <Artifact itemID="AirHockeyArm">
+    <Name>AirHockey Arm</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="EquipWep" target="Self" value="ArmAirHockey"></App>
+    <Description>Change Weapon to AirHockey</Description>
+    <Meta>Change Weapon to AirHockey</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>   
   <Artifact itemID="MuramasaArt">
     <Name>Muramasa</Name>
     <Tags>Player, Negative, Solo</Tags>
-    <App trigger="OnEquip" effect="MaxHPChange" amount="-500"></App>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="-450"></App>
     <App trigger="OnEquip" effect="AtkDmg" amount="100"></App>
-    <Description>-500 MaxHP, +100 Basic Attack Damage</Description>
-    <Meta>-500 MaxHP, +100 Basic Attack Damage</Meta>
+    <Description>-450 MaxHP, +100 Basic Attack Damage</Description>
+    <Meta>-450 MaxHP, +100 Basic Attack Damage</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
   </Artifact>
