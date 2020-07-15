@@ -931,7 +931,7 @@
       <ShotDelay></ShotDelay>
       <BlastDuration>0.4</BlastDuration>
       <DestroyOnHit>true</DestroyOnHit>
-      <OnHit target="Hit" duration="5">Invincible</OnHit>
+      <OnHit target="Hit" duration="5000">Invincible</OnHit>
     </Spell>
     <Spell itemID="FireSlash">
       <Stats animBlast="AxeHitF" animShot="AxeHitF" castSound="woosh_large" shotSound="slice_clang"
