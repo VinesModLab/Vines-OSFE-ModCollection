@@ -924,14 +924,14 @@
       <Damage>0</Damage>
       <Shots>1</Shots>
       <Tiles>0</Tiles>
-      <Location>Front</Location>
+      <Location>Current</Location>
       <TimeBetweenShots>0</TimeBetweenShots>
       <ShotVelocity>0</ShotVelocity>
       <ShotDuration>0.3</ShotDuration>
       <ShotDelay></ShotDelay>
       <BlastDuration>0.4</BlastDuration>
       <DestroyOnHit>true</DestroyOnHit>
-      <OnHit target="Hit" duration="5000">Invincible</OnHit>
+      <OnHit target="Self" duration="5">Invincible</OnHit>
     </Spell>
     <Spell itemID="FireSlash">
       <Stats animBlast="AxeHitF" animShot="AxeHitF" castSound="woosh_large" shotSound="slice_clang"
@@ -2106,7 +2106,7 @@
         <Tiles>4</Tiles>
         <Location>RandAlliedUnique</Location>
         <TimeBetweenShots>0.15</TimeBetweenShots>
-        <ShotVelocity>850</ShotVelocity>
+        <ShotVelocity>550</ShotVelocity>
         <ShotDuration>1</ShotDuration>
         <ShotDelay></ShotDelay>
         <CastDelay>0.4</CastDelay>
