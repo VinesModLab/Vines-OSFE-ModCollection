@@ -15,7 +15,7 @@ Contain 3 different mods:
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1007061608878066881/979025F413F17283D8801C333E58BA1715B8DEDA/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Current Subscribers : ~670
+Current Subscribers : ~920
 
 [More Info / Download Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2040863459)
 
@@ -45,7 +45,7 @@ Some spells showcase:
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1007061608877945628/A5C8DC1FCAE24643FE9EA19B509EFBF4EFE7F9E7/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Current Subscribers : ~170
+Current Subscribers : ~200
 
 [More Info / Download Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2039525141)
 
@@ -67,7 +67,7 @@ Multiple Artifacts.
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1007059374092758164/84658BD70EE27DD3914C86995CFBD7736622CB37/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Current Subscribers : ~2500
+Current Subscribers : ~3000
 
 [More Info / Download Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2039428448)
 
