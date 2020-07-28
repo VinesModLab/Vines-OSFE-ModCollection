@@ -2039,15 +2039,15 @@
     <Action>Multishot</Action>
     <Description>Bouncing disc lasts 3 seconds</Description>
     <Meta></Meta>
-    <Rarity>2</Rarity>
+    <Rarity>1</Rarity>
     <Brand>Anima</Brand>
-    <Mana>2</Mana>
+    <Mana>1</Mana>
     <Damage>60</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>Front</Location>
     <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0.1</ShotVelocity>
+    <ShotVelocity>0.3</ShotVelocity>
     <ShotDuration>5</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
@@ -2068,15 +2068,15 @@
     <Action>Multishot</Action>
     <Description>Bouncing disc lasts 3 seconds</Description>
     <Meta></Meta>
-    <Rarity>3</Rarity>
+    <Rarity>2f</Rarity>
     <Brand>Anima</Brand>
-    <Mana>3</Mana>
+    <Mana>2</Mana>
     <Damage>60+SpellPower*10</Damage>
     <Shots>1</Shots>
     <Tiles>1</Tiles>
     <Location>Front</Location>
     <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0.1</ShotVelocity>
+    <ShotVelocity>0.3</ShotVelocity>
     <ShotDuration>5</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
@@ -2096,17 +2096,17 @@
         <Name>CrimsonDragon</Name>
         <Tags>Player</Tags>
         <Action>Multishot</Action>
-        <Description>Charge for 0.3s then fire 6 Dragons from random tiles.</Description>
+        <Description>Charge for 0.3s then fire Dragons from random tiles.</Description>
         <Meta></Meta>
         <Rarity>4</Rarity>
         <Brand>Anima</Brand>
-        <Mana>7</Mana>
+        <Mana>5</Mana>
         <Damage>350</Damage>
-        <Shots>7</Shots>
+        <Shots>9</Shots>
         <Tiles>4</Tiles>
         <Location>RandAlliedUnique</Location>
         <TimeBetweenShots>0.15</TimeBetweenShots>
-        <ShotVelocity>550</ShotVelocity>
+        <ShotVelocity>450</ShotVelocity>
         <ShotDuration>1</ShotDuration>
         <ShotDelay></ShotDelay>
         <CastDelay>0.4</CastDelay>
