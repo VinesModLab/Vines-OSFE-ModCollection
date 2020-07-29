@@ -147,6 +147,21 @@
     <Rarity>3</Rarity>
     <Params></Params>
   </Artifact>
+  <Artifact itemID="BrotherBond">
+    <Name>BrotherBond</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="SpellPower" amount="3"></App>
+    <App trigger="OnSummon" effect="MaxHPChangeBattle" target="LastSpawned" amount="60"></App>
+    <App trigger="OnSummon" effect="Heal" target="LastSpawned" amount="60"></App>
+    <App trigger="OnEquip" effect="AtkDmg" amount="3"></App>
+    <App trigger="OnEquip" effect="MaxMana" amount="2"></App>
+    <App trigger="OnEquip" effect="Heal" amount="100"></App>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="100"></App>    
+    <Description>All-rounded powerUP.</Description>
+    <Meta>All-rounded powerUP</Meta>
+    <Rarity>3</Rarity>
+    <Params></Params>
+  </Artifact>
   <Artifact itemID="ToolBox">
     <Name>ToolBox</Name>
     <Tags>Player, Solo</Tags>
@@ -175,6 +190,15 @@
     <Rarity>1</Rarity>
     <Params></Params>
   </Artifact>
+  <Artifact itemID="MaxHPBall">
+    <Name>HP Ball</Name>
+    <Tags>Player, Solo</Tags>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="300"></App>
+    <Description>+300 MaxHP</Description>
+    <Meta>+300 MaxHP</Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>  
   <Artifact itemID="Navi20">
     <Name>Navi+20</Name>
     <Tags>Player, Solo</Tags>
@@ -239,6 +263,16 @@
     <Rarity>3</Rarity>
     <Params></Params>
   </Artifact>   
+  <Artifact itemID="PoisonApple">
+    <Name>PoisonApple</Name>
+    <Tags>Player, Negative, Solo</Tags>
+    <App trigger="OnEquip" effect="HPChange" amount="-350"></App>
+    <App trigger="OnEquip" effect="MaxHPChange" amount="+200"></App>
+    <Description>-350 HP, +200 MaxHP. </Description>
+    <Meta>-350 HP, +200 MaxHP. </Meta>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>  
   <Artifact itemID="MuramasaArt">
     <Name>Muramasa</Name>
     <Tags>Player, Negative, Solo</Tags>

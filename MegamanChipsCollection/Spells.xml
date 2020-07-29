@@ -379,6 +379,62 @@
      <TrinityCast>DoubleCast</TrinityCast>
      <OnCast></OnCast>
    </Spell>
+     <Spell itemID="BerserkSword1">
+     <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+       setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>BerserkSword</Name>
+     <Tags>Player</Tags>
+     <Action>StepSlash</Action>
+     <Description>Teleport forward and Slash 1x3 tiles in front. Slash 3 shots. </Description>
+     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+     <Rarity>0</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>1</Mana>
+     <Damage>75</Damage>
+     <Shots>3</Shots>
+     <Tiles>1</Tiles>
+     <Location Position="3">Front</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0.25</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <BlastDuration>0.5</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast></OnCast>
+   </Spell>
+     <Spell itemID="BerserkSwordX">
+     <Stats animBlast="SwordHitBlue" animShot="" castSound="woosh_large" shotSound="slice_clang"
+       setToGunPoint="None" slashLocation="1" hitboxHeight="3" recoveryTime="0.3" cooldown="0.5"></Stats>
+     <HitAllies></HitAllies>
+     <HitEnemies>true</HitEnemies>
+     <HitSelf></HitSelf>
+     <HitStructures>true</HitStructures>
+     <Name>BerserkSwordX</Name>
+     <Tags>Player</Tags>
+     <Action>StepSlash</Action>
+     <Description>Teleport forward and Slash 1x3 tiles in front. Slash 3 shots. </Description>
+     <Meta>Teleport forward and Slash 1x3 tiles in front.</Meta>
+     <Rarity>1</Rarity>
+     <Brand>Slashfik</Brand>
+     <Mana>2</Mana>
+     <Damage>75+SpellPower*10</Damage>
+     <Shots>3</Shots>
+     <Tiles>1</Tiles>
+     <Location Position="3">Front</Location>
+     <TimeBetweenShots>0.1</TimeBetweenShots>
+     <ShotVelocity>0</ShotVelocity>
+     <ShotDuration>0.25</ShotDuration>
+     <ShotDelay></ShotDelay>
+     <CastDelay>0</CastDelay>
+     <BlastDuration>0.5</BlastDuration>
+     <DestroyOnHit></DestroyOnHit>
+     <OnCast></OnCast>
+   </Spell>  
    <Spell itemID="SonicSword1">
      <Stats animCast="SwordHit" animShot="SonicSword" castSound="woosh_large" shotSound="slice_clang" setToGunPoint="Both" hitboxHeight="3"></Stats>
      <HitAllies></HitAllies>
@@ -1945,6 +2001,33 @@
         <DestroyOnHit>true</DestroyOnHit>
         <OnCast amount="2" target="Self">FlowStack</OnCast>
       </Spell>
+      <Spell itemID="PoisonCarpet">
+        <Stats animCast="" animShot="RollingLog" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="2"></Stats>
+        <HitAllies></HitAllies>
+        <HitEnemies>true</HitEnemies>
+        <HitSelf></HitSelf>
+        <HitStructures>true</HitStructures>
+        <Name>PoisonCarpet</Name>
+        <Tags>Player, Demo, Live</Tags>
+        <Action>Multishot</Action>
+        <Description>Send out 1 log forward. Apply 100 %hg%Poison%/hg%. </Description>
+        <Meta></Meta>
+        <Rarity>1</Rarity>
+        <Brand>Miseri</Brand>
+        <Mana>1</Mana>
+        <Damage>60</Damage>
+        <Shots>1</Shots>
+        <Tiles>1</Tiles>
+        <Location>End</Location>
+        <TimeBetweenShots>0.15</TimeBetweenShots>
+        <ShotVelocity>300</ShotVelocity>
+        <ShotDuration>2</ShotDuration>
+        <ShotDelay></ShotDelay>
+        <CastDelay>0.15</CastDelay>
+        <CastDuration>0.15</CastDuration>
+        <DestroyOnHit>false</DestroyOnHit>
+        <OnHit amount="100">Poison</OnHit>
+      </Spell>      
       <Spell itemID="RollingLog">
         <Stats animCast="" animShot="RollingLog" introSound="" shotSound="" setToGunPoint="Both" hitboxHeight="2"></Stats>
         <HitAllies></HitAllies>
@@ -2013,7 +2096,7 @@
           <Description>Hit 2x3 tiles in front. Apply 100 %hg%Poison%/hg%. </Description>
           <Meta></Meta>
           <Rarity>2</Rarity>
-          <Brand>Slashfik</Brand>
+          <Brand>Miseri</Brand>
           <Mana>3</Mana>
           <Damage>260</Damage>
           <Shots>1</Shots>
