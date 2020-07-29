@@ -2130,7 +2130,7 @@
     <Tiles>1</Tiles>
     <Location>Front</Location>
     <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0.3</ShotVelocity>
+    <ShotVelocity>0.05</ShotVelocity>
     <ShotDuration>5</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
@@ -2159,7 +2159,7 @@
     <Tiles>1</Tiles>
     <Location>Front</Location>
     <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0.3</ShotVelocity>
+    <ShotVelocity>0.05</ShotVelocity>
     <ShotDuration>5</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
