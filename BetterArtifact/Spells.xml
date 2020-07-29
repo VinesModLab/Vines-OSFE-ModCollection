@@ -82,7 +82,6 @@
        <CastDuration>0.15</CastDuration>
        <DestroyOnHit>true</DestroyOnHit>
        <OnHit chance="0.33">Frost</OnHit>
-       <OnCast>Anchor</OnCast>
      </Spell>   
       <Spell itemID="ArmHarpNote">
         <Stats animBlast="MusicMeasureShot" animShot="MusicMeasureShot" shotSound="violin_shot_01"
@@ -133,7 +132,7 @@
     <Tiles>1</Tiles>
     <Location>Front</Location>
     <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0.1</ShotVelocity>
+    <ShotVelocity>0.05</ShotVelocity>
     <ShotDuration>5</ShotDuration>
     <ShotDelay></ShotDelay>
     <CastDelay>0</CastDelay>
@@ -169,7 +168,6 @@
         <CastDelay>0</CastDelay>
         <BlastDuration>0.5</BlastDuration>
         <DestroyOnHit></DestroyOnHit>
-        <OnCast>Anchor</OnCast>
         <OnCast></OnCast>
       </Spell>         
 </Spells>
