@@ -277,9 +277,9 @@
     <Name>Muramasa</Name>
     <Tags>Player, Negative, Solo</Tags>
     <App trigger="OnEquip" effect="MaxHPChange" amount="-450"></App>
-    <App trigger="OnEquip" effect="AtkDmg" amount="100"></App>
-    <Description>-450 MaxHP, +100 Basic Attack Damage</Description>
-    <Meta>-450 MaxHP, +100 Basic Attack Damage</Meta>
+    <App trigger="OnEquip" effect="AtkDmg" amount="250"></App>
+    <Description>-450 MaxHP, +250 Basic Attack Damage</Description>
+    <Meta>-450 MaxHP, +250 Basic Attack Damage</Meta>
     <Rarity>2</Rarity>
     <Params></Params>
   </Artifact>

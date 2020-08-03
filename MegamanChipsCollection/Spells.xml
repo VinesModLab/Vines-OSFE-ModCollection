@@ -1430,8 +1430,8 @@
         <Rarity>1</Rarity>
         <Brand>Convergence</Brand>
         <Mana>2</Mana>
-        <Damage>45</Damage>
-        <Shots>3</Shots>
+        <Damage>25</Damage>
+        <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
         <TimeBetweenShots>0.2</TimeBetweenShots>
@@ -1462,8 +1462,8 @@
         <Rarity>2</Rarity>
         <Brand>Convergence</Brand>
         <Mana>3</Mana>
-        <Damage>45+SpellPower*5</Damage>
-        <Shots>3</Shots>
+        <Damage>25+SpellPower*5</Damage>
+        <Shots>5</Shots>
         <Tiles>1</Tiles>
         <Location>Current</Location>
         <TimeBetweenShots>0.2</TimeBetweenShots>
