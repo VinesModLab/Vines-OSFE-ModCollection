@@ -130,12 +130,12 @@
     <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
-    <ManaRegen>0.3</ManaRegen>
+    <ManaRegen>0.6</ManaRegen>
     <ShuffleTime>2</ShuffleTime>
     <GracePeriod>0.03</GracePeriod>
     <Defense>0</Defense>
     <LerpTime>0.1</LerpTime>
-    <Deck>Yoyo</Deck>
+    <Deck>YoyoV</Deck>
     <Deck>Recovery80</Deck>
     <Deck>HarpNote</Deck>
     <Deck>HarpNoteX</Deck>
@@ -214,7 +214,7 @@
     <Money>0</Money>
     <MaxMana>10</MaxMana>
     <BasicCooldown>0.1</BasicCooldown>
-    <ManaRegen>0</ManaRegen>
+    <ManaRegen>0.3</ManaRegen>
     <ShuffleTime>2.5</ShuffleTime>
     <GracePeriod>0.03</GracePeriod>
     <Defense>0</Defense>
@@ -312,8 +312,8 @@
     <Deck>PiranhaKissX</Deck>
     <Deck>DanceFire</Deck>
     <Deck>DanceFireX</Deck>
-    <Deck>Yoyo</Deck>
-    <Deck>YoyoX</Deck>
+    <Deck>YoyoV</Deck>
+    <Deck>YoyoVX</Deck>
     <Deck>Recovery300</Deck>
     <Deck>Recovery80</Deck>
     <Deck>GiantAxe</Deck>

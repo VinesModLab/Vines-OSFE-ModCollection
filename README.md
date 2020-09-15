@@ -15,7 +15,7 @@ Contain 3 different mods:
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1007061608878066881/979025F413F17283D8801C333E58BA1715B8DEDA/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
-Current Subscribers : ~920
+Current Subscribers : ~1000
 
 [More Info / Download Here](https://steamcommunity.com/sharedfiles/filedetails/?id=2040863459)
 
@@ -41,7 +41,7 @@ Some spells showcase:
 
 
 
-## BetterArtifact (WIP)
+## BetterArtifact
 
 ![](https://steamuserimages-a.akamaihd.net/ugc/1007061608877945628/A5C8DC1FCAE24643FE9EA19B509EFBF4EFE7F9E7/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 

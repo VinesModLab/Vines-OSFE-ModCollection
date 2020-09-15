@@ -756,7 +756,7 @@
        <OnHit value="RingOfFire" target="Self">CastSpell</OnHit>
      </Spell>
      <Spell itemID="YoyoV">
-       <Stats animCast="FrostboltCharge" animShot="Yoyo" castSound="wiffle_buzz_fade" shotSound=""
+       <Stats animCast="FrostboltCharge" animShot="YoyoV" castSound="wiffle_buzz_fade" shotSound=""
          setToGunPoint="Both"></Stats>
        <HitAllies></HitAllies>
        <HitEnemies>true</HitEnemies>
@@ -787,8 +787,8 @@
        <OnHit amount="2" target="Self">Mana</OnHit>
        <OnHit duration="2" target="Hit">Root</OnHit>
      </Spell>
-     <Spell itemID="YoyoX">
-       <Stats animCast="FrostboltCharge" animShot="Yoyo" castSound="wiffle_buzz_fade" shotSound=""
+     <Spell itemID="YoyoVX">
+       <Stats animCast="FrostboltCharge" animShot="YoyoV" castSound="wiffle_buzz_fade" shotSound=""
          setToGunPoint="Both"></Stats>
        <HitAllies></HitAllies>
        <HitEnemies>true</HitEnemies>
