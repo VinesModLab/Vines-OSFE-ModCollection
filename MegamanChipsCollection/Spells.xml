@@ -1626,7 +1626,7 @@
         <OnCast>Consume</OnCast>
       </Spell>
       <Spell itemID="JetSki">
-        <Stats animBlast="Slash4x1" animShot="" castSound="woosh_large" shotSound="slice_clang"
+        <Stats animBlast="Slash4x1Blue" animShot="" castSound="woosh_large" shotSound="slice_clang"
           setToGunPoint="None" hitboxWidth="4" hitboxHeight="1" hitboxOffsetX="-0.5" recoveryTime="0.15"
           pierceShield="true"></Stats>
         <HitAllies></HitAllies>
@@ -1656,7 +1656,7 @@
         <OnHit>Frost</OnHit>
       </Spell>
       <Spell itemID="JetSkiX">
-        <Stats animBlast="Slash4x1" animShot="" castSound="woosh_large" shotSound="slice_clang"
+        <Stats animBlast="Slash4x1Blue" animShot="" castSound="woosh_large" shotSound="slice_clang"
           setToGunPoint="None" hitboxWidth="4" hitboxHeight="1" hitboxOffsetX="-0.5" recoveryTime="0.15"
           pierceShield="true"></Stats>
         <HitAllies></HitAllies>
